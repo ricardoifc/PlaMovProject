@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:foregroundGravity="center"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="1205dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/gestion_empresarial"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn01"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Antecedentes Generales" />
+
+            <CheckBox
+                android:id="@+id/cb01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn02"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Antecedentes Empresa" />
+
+            <CheckBox
+                android:id="@+id/cb02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn03"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Trayectoria" />
+
+            <CheckBox
+                android:id="@+id/cb03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn04"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Familia en Empresa" />
+
+            <CheckBox
+                android:id="@+id/cb04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn05"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Antecedentes Empresa" />
+
+            <CheckBox
+                android:id="@+id/cb05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn06"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Organigrama" />
+
+            <CheckBox
+                android:id="@+id/cb06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn07"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Casuítivo" />
+
+            <CheckBox
+                android:id="@+id/cb07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn08"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Diagrama" />
+
+            <CheckBox
+                android:id="@+id/cb08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn09"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Subsistema Mercado" />
+
+            <CheckBox
+                android:id="@+id/cb09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Subsistema Producción" />
+
+            <CheckBox
+                android:id="@+id/cb10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Subsistema Personal" />
+
+            <CheckBox
+                android:id="@+id/cb11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Subsistema Legal" />
+
+            <CheckBox
+                android:id="@+id/cb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Subsistema Finanzas" />
+
+            <CheckBox
+                android:id="@+id/cb13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Fodas" />
+
+            <CheckBox
+                android:id="@+id/cb14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Resultado Parametrico" />
+
+            <CheckBox
+                android:id="@+id/cb15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn16"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Objetivos por etapa" />
+
+            <CheckBox
+                android:id="@+id/cb16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn17"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Topicos" />
+
+            <CheckBox
+                android:id="@+id/cb17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn18"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Topicos Prior" />
+
+            <CheckBox
+                android:id="@+id/cb18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn19"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Ruta Crit" />
+
+            <CheckBox
+                android:id="@+id/cb19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Capa y P.N." />
+
+            <CheckBox
+                android:id="@+id/cb20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Vincula" />
+
+            <CheckBox
+                android:id="@+id/cb21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:text="Seguimiento" />
+
+            <CheckBox
+                android:id="@+id/cb22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progreso" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="5sp">
+
+            <Button
+                android:id="@+id/btn_salir"
+                android:layout_width="269dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FF0000"
+                android:text="Marchar afuera" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

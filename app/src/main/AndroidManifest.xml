@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.utpl.plamovproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlaMovProject">
+        <activity
+            android:name=".Form22"
+            android:exported="false" />
+        <activity
+            android:name=".Form21"
+            android:exported="false" />
+        <activity
+            android:name=".Form20"
+            android:exported="false" />
+        <activity
+            android:name=".Form19"
+            android:exported="false" />
+        <activity
+            android:name=".Form18"
+            android:exported="false" />
+        <activity
+            android:name=".Form17"
+            android:exported="false" />
+        <activity
+            android:name=".Form16"
+            android:exported="false" />
+        <activity
+            android:name=".Form15"
+            android:exported="false" />
+        <activity
+            android:name=".Form14"
+            android:exported="false" />
+        <activity
+            android:name=".Form13"
+            android:exported="false" />
+        <activity
+            android:name=".Form12"
+            android:exported="false" />
+        <activity
+            android:name=".Form11"
+            android:exported="false" />
+        <activity
+            android:name=".Form10"
+            android:exported="false" />
+        <activity
+            android:name=".Form09"
+            android:exported="false" />
+        <activity
+            android:name=".Form08"
+            android:exported="false" />
+        <activity
+            android:name=".Form07"
+            android:exported="false" />
+        <activity
+            android:name=".Form06"
+            android:exported="false" />
+        <activity
+            android:name=".Form05"
+            android:exported="false" />
+        <activity
+            android:name=".Form04"
+            android:exported="false" />
+        <activity
+            android:name=".Form03"
+            android:exported="false" />
+        <activity
+            android:name=".Form02"
+            android:exported="false" />
+        <activity
+            android:name=".Form01"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
