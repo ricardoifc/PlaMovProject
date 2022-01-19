@@ -53,7 +53,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit1"
+            android:id="@+id/et_01_01"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="20"
@@ -65,7 +65,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit2"
+            android:id="@+id/et_01_02"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="20"
@@ -77,7 +77,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit3"
+            android:id="@+id/et_01_03"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -89,7 +89,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit4"
+            android:id="@+id/et_01_04"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -101,7 +101,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit5"
+            android:id="@+id/et_01_05"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -113,7 +113,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit6"
+            android:id="@+id/et_01_06"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -125,7 +125,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit7"
+            android:id="@+id/et_01_07"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -137,7 +137,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit8"
+            android:id="@+id/et_01_08"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -149,7 +149,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit9"
+            android:id="@+id/et_01_09"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -161,19 +161,7 @@
             android:layout_height="5dp" />
 
         <EditText
-            android:id="@+id/textedit10"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit11"
+            android:id="@+id/et_01_10"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:ems="10"
@@ -315,19 +303,6 @@
             android:layout_height="30dp"
             android:gravity="center_vertical"
             android:text="Estado de salud"
-            android:textAlignment="center"
-            android:textSize="12dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="Edad"
             android:textAlignment="center"
             android:textSize="12dp" />
 
