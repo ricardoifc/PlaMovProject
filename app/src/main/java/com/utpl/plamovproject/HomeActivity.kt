@@ -29,8 +29,10 @@ class HomeActivity : AppCompatActivity() {
 
         btn01.setOnClickListener{
             val form01Intent: Intent = Intent(this,Form01::class.java).apply {
+
                 putExtra("email", email)
                 putExtra("provider", provider)
+
             }
             startActivity(form01Intent)
         }
