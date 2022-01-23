@@ -1,5 +1,6 @@
 package com.utpl.plamovproject
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.firestore.FirebaseFirestore
@@ -45,7 +46,20 @@ class Form01 : AppCompatActivity() {
 
                     )
             )
+            val form02Intent: Intent = Intent(this,Form02::class.java).apply {
+                putExtra("email", email)
+                putExtra("provider", provider)
+            }
+            startActivity(form02Intent)
 
+        }
+
+        cancelar.setOnClickListener {
+            val homeIntent: Intent = Intent(this, HomeActivity::class.java).apply {
+                putExtra("email", email)
+                putExtra("provider", provider)
+            }
+            startActivity(homeIntent)
         }
     }
     fun refrescar(email: String, provider: String) {
