@@ -57,7 +57,8 @@
                 android:ems="10"
                 android:hint="Email"
                 android:inputType="textPersonName"
-                android:minHeight="48dp" />
+                android:minHeight="48dp"
+                android:textColorHint="#AE000000" />
 
             <EditText
                 android:id="@+id/et_clave"
@@ -66,7 +67,8 @@
                 android:ems="10"
                 android:hint="Clave"
                 android:inputType="textPassword"
-                android:minHeight="48dp" />
+                android:minHeight="48dp"
+                android:textColorHint="#AE000000" />
 
             <Space
                 android:layout_width="match_parent"
@@ -79,7 +81,8 @@
                 android:layout_weight="1"
                 android:backgroundTint="#3D4DA8"
                 android:text="Ingresar"
-                app:cornerRadius="15dp" />
+                android:textColor="#FFFFFF"
+                app:cornerRadius="25sp" />
 
             <Button
                 android:id="@+id/btn_registar"
@@ -88,7 +91,8 @@
                 android:layout_weight="1"
                 android:backgroundTint="#004CCD"
                 android:text="Registrar"
-                app:cornerRadius="15dp" />
+                android:textColor="#FFFFFF"
+                app:cornerRadius="25sp" />
 
             <Space
                 android:layout_width="match_parent"
