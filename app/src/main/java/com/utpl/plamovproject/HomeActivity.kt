@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.activity_form01.*
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -13,6 +15,7 @@ enum class ProviderType {
 
 
 class HomeActivity : AppCompatActivity() {
+    private val db = FirebaseFirestore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -26,8 +29,10 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun setup(email:String, provider:String){
+        refrescar(email?:"", provider?:"")
 
         btn01.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form01Intent: Intent = Intent(this,Form01::class.java).apply {
 
                 putExtra("email", email)
@@ -37,13 +42,16 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form01Intent)
         }
         btn02.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form02Intent: Intent = Intent(this,Form02::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
             startActivity(form02Intent)
+            finish();
         }
         btn03.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form03Intent: Intent = Intent(this,Form03::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -51,6 +59,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form03Intent)
         }
         btn04.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form04Intent: Intent = Intent(this,Form04::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -58,6 +67,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form04Intent)
         }
         btn05.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form05Intent: Intent = Intent(this,Form05::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -65,6 +75,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form05Intent)
         }
         btn06.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form06Intent: Intent = Intent(this,Form06::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -72,6 +83,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form06Intent)
         }
         btn07.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form07Intent: Intent = Intent(this,Form07::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -79,6 +91,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form07Intent)
         }
         btn08.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form08Intent: Intent = Intent(this,Form08::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -86,6 +99,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form08Intent)
         }
         btn09.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form09Intent: Intent = Intent(this,Form09::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -93,6 +107,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form09Intent)
         }
         btn10.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form10Intent: Intent = Intent(this,Form10::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -100,6 +115,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form10Intent)
         }
         btn11.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form11Intent: Intent = Intent(this,Form11::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -107,6 +123,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form11Intent)
         }
         btn12.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form12Intent: Intent = Intent(this,Form12::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -114,6 +131,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form12Intent)
         }
         btn13.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form13Intent: Intent = Intent(this,Form13::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -121,6 +139,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form13Intent)
         }
         btn14.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form14Intent: Intent = Intent(this,Form14::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -128,6 +147,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form14Intent)
         }
         btn15.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form15Intent: Intent = Intent(this,Form15::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -135,6 +155,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form15Intent)
         }
         btn16.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form16Intent: Intent = Intent(this,Form16::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -142,6 +163,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form16Intent)
         }
         btn17.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form17Intent: Intent = Intent(this,Form17::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -149,6 +171,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form17Intent)
         }
         btn18.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form18Intent: Intent = Intent(this,Form18::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -156,6 +179,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form18Intent)
         }
         btn19.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form19Intent: Intent = Intent(this,Form19::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -163,6 +187,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form19Intent)
         }
         btn20.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form20Intent: Intent = Intent(this,Form20::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -170,6 +195,8 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form20Intent)
         }
         btn21.setOnClickListener{
+            refrescar(email?:"", provider?:"")
+
             val form21Intent: Intent = Intent(this,Form21::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -177,6 +204,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(form21Intent)
         }
         btn22.setOnClickListener{
+            refrescar(email?:"", provider?:"")
             val form22Intent: Intent = Intent(this,Form22::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -188,5 +216,105 @@ class HomeActivity : AppCompatActivity() {
             FirebaseAuth.getInstance().signOut()
             onBackPressed()
         }
+
+
+    }
+    fun refrescar(email: String, provider: String) {
+
+        cb01.setChecked(false)
+        db.collection(email).document("fo01").get().addOnSuccessListener {
+
+            if (it.get("completef01") == "true") {
+                cb01.setChecked(true)
+            }
+        }
+        cb02.setChecked(false)
+        db.collection(email).document("fo02").get().addOnSuccessListener {
+
+            if (it.get("completef02") == "true") {
+                cb02.setChecked(true)
+            }
+        }
+        cb03.setChecked(false)
+        db.collection(email).document("fo03").get().addOnSuccessListener {
+
+            if (it.get("completef03") == "true") {
+                cb03.setChecked(true)
+            }
+        }
+        cb04.setChecked(false)
+        db.collection(email).document("fo04").get().addOnSuccessListener {
+
+            if (it.get("completef04") == "true") {
+                cb04.setChecked(true)
+            }
+        }
+        cb05.setChecked(false)
+        db.collection(email).document("fo05").get().addOnSuccessListener {
+
+            if (it.get("completef05") == "true") {
+                cb05.setChecked(true)
+            }
+        }
+        cb06.setChecked(false)
+        db.collection(email).document("fo06").get().addOnSuccessListener {
+
+            if (it.get("completef06") == "true") {
+                cb06.setChecked(true)
+            }
+        }
+        cb07.setChecked(false)
+        db.collection(email).document("fo07").get().addOnSuccessListener {
+
+            if (it.get("completef07") == "true") {
+                cb07.setChecked(true)
+            }
+        }
+        cb08.setChecked(false)
+        db.collection(email).document("fo08").get().addOnSuccessListener {
+
+            if (it.get("completef08") == "true") {
+                cb08.setChecked(true)
+            }
+        }
+        cb09.setChecked(false)
+        db.collection(email).document("fo09").get().addOnSuccessListener {
+
+            if (it.get("completef09") == "true") {
+                cb09.setChecked(true)
+            }
+        }
+        cb10.setChecked(false)
+        db.collection(email).document("fo10").get().addOnSuccessListener {
+
+            if (it.get("completef10") == "true") {
+                cb10.setChecked(true)
+            }
+        }
+        cb11.setChecked(false)
+        db.collection(email).document("fo11").get().addOnSuccessListener {
+
+            if (it.get("completef11") == "true") {
+                cb11.setChecked(true)
+            }
+        }
+        cb12.setChecked(false)
+        db.collection(email).document("fo12").get().addOnSuccessListener {
+
+            if (it.get("completef12") == "true") {
+                cb12.setChecked(true)
+            }
+        }
+        cb13.setChecked(false)
+        db.collection(email).document("fo13").get().addOnSuccessListener {
+
+            if (it.get("completef13") == "true") {
+                cb13.setChecked(true)
+            }
+        }
+
+
+
+
     }
 }

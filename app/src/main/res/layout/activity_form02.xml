@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="center"
-    tools:context=".formulario2">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Titulo"
+            android:text="Titulo 2"
             android:textSize="25sp" />
 
         <Space
@@ -43,8 +43,935 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-                    //
-                    //
+
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='1.  GENERALES DE LA EMPRESA'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'NOMBRE'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_01'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'DIRECCION'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_02'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'TELEFONO Y FAX O MAIL'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_03'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'R.F.C'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_04'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'DOMICILIO FISCAL'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_05'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='2. ANTIGÜEDAD DE LA EMPRESA'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='3. ESTATUS LEGAL DE LA EMPRESA'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'PERSONA FISICA'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_06'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'PERSONA MORAL'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_07'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'NO REGISTRADA'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_08'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='4. ESTATUS FISCAL'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='5. TAMAÑO DE LA EMPRESA'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'NÚMERO DE EMPLEADOS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_09'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'OPERATIVOS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_10'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'ADMINISTRATIVOS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_11'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'OTROS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_12'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'TOTAL'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_13'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'COMENTARIOS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_14'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'VENTAS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_15'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'DIARIAS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_16'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'SEMANALES'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_17'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'MENSUALES'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_18'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'VALOR DE LOS ACTIVOS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_19'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'TERRENO'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_20'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'BIENES'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_21'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'OTROS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_22'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'CALCULOS (SE DA COMO RESULTADO)'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_23'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'VENTAS / EMPLEADOS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_24'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'VENTAS / ACTIVOS'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_25'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='6.  COBERTURA DE MERCADO DE LA EMPRESA'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'LOCAL'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_26'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'REGIONAL'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_27'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'INTERNACIONAL'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_28'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='7.  VISION DE LA EMPRESA'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'CORTO PLAZO'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_29'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'LARGO PLAZO'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_30'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+                    "// sub titulo
+                    <TextView
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='8. COMENTARIO EJECUTIVO DE ANTECEDENTES DE LA EMPRESA'
+                        android:textSize='15sp' />
+                    // fin sub titulo"
+                    "// aqui campo
+                    <LinearLayout
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
+                        <TextView
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical' android:text= 'Comentario'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
+                        <EditText
+                            android:id='@+id/f02_31'  android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20' android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
+
+
+
+
 
 
                 </LinearLayout>
@@ -67,7 +994,7 @@
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/progressTextF22"
+                android:id="@+id/progressTextf02"
                 android:layout_width="203dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
