@@ -8,33 +8,133 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="333dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="100dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/cancelar"
-            android:layout_width="124dp"
-            android:layout_height="match_parent"
-            android:text="Cancelar"
-            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="25sp" />
 
         <Space
-            android:layout_width="71dp"
-            android:layout_height="match_parent"
-            android:layout_weight="10" />
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
 
-        <Button
-            android:id="@+id/guardar"
-            android:layout_width="124dp"
-            android:layout_height="match_parent"
-            android:text="Guardar"
-            android:textSize="12dp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="580dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                // aqui campo
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="apoisjdpaoskjd"
+                        android:textAlignment="center"
+                        android:textIsSelectable="false"
+                        android:textSize="12dp"
+                        app:autoSizeTextType="none" />
+
+                    <EditText
+                        android:id="@+id/textedit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:ems="20"
+                        android:inputType="textPersonName"
+                        android:textSize="10dp" />
+                </LinearLayout>
+                // fin campo
+
+                // aqui campo
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="apoisjdpaoskjd"
+                        android:textAlignment="center"
+                        android:textIsSelectable="false"
+                        android:textSize="12dp"
+                        app:autoSizeTextType="none" />
+
+                    <EditText
+                        android:id="@+id/textedit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:ems="20"
+                        android:inputType="textPersonName"
+                        android:textSize="10dp" />
+                </LinearLayout>
+                // fin campo
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Seccion incompleta" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Atras"
+                app:cornerRadius="10sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Menu"
+                app:cornerRadius="10sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Siguiente"
+                app:cornerRadius="10sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
