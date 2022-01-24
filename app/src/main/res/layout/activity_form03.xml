@@ -7,320 +7,135 @@
     android:textAlignment="center"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Antecedentes Empresa"
-        android:textAlignment="center"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="263dp"
-        android:layout_height="18dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="43dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView28"
+            android:id="@+id/tituloF22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Antecedentes generales de la empresa"
-            android:textAlignment="center" />
+            android:gravity="center"
+            android:text="Titulo"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="527dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ScrollView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    //
+                    //
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/progressTextF22"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Seccion incompleta" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#218DE3"
+                android:text="Atras"
+                app:cornerRadius="10sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#218DE3" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#218DE3"
+                android:text="Menu"
+                app:cornerRadius="10sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#218DE3" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#218DE3"
+                android:text="Siguiente"
+                app:cornerRadius="10sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="79dp" />
     </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="243dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="30dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit22"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit23"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit24"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit25"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit26"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit27"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit28"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <EditText
-            android:id="@+id/textedit29"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:ems="20"
-            android:inputType="textPersonName"
-            android:textSize="10dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="128dp"
-        android:layout_height="400dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="30dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
-        app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="Nombre"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:textAlignment="center" />
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="Dirección"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="R.F.C"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView33"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="Antiguedad de la Empresa"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="Personal Fisica"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="Personal Moral"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView36"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="No registrada"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-        <TextView
-            android:id="@+id/textView37"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical"
-            android:text="Estatus Fiscal"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            android:textSize="12dp"
-            app:autoSizeTextType="none" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="5dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="333dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="100dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <Button
-            android:id="@+id/cancelar"
-            android:layout_width="124dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="#2C85F3"
-            android:text="Cancelar"
-            android:textSize="12dp" />
-
-        <Space
-            android:layout_width="71dp"
-            android:layout_height="match_parent"
-            android:layout_weight="10" />
-
-        <Button
-            android:id="@+id/guardar"
-            android:layout_width="124dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="#2C85F3"
-            android:text="Siguiente"
-            android:textSize="12dp" />
-    </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
