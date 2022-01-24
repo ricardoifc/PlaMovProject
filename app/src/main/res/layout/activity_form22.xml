@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +27,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="583dp"
+            android:layout_height="474dp"
             android:orientation="horizontal">
 
             <Space
@@ -36,7 +37,7 @@
 
             <ScrollView
                 android:layout_width="371dp"
-                android:layout_height="match_parent"
+                android:layout_height="474dp"
                 android:layout_gravity="center_vertical">
 
                 <LinearLayout
@@ -46,83 +47,49 @@
 
 
                     // sub titulo
+
                     <TextView
-                        android:id="@+id/subtituloF22_01"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="subtitulo"
-                        android:textSize="15sp" />
-                    // fin sub titulo\
+                        android:layout_width='match_parent'
+                        android:layout_height='wrap_content'
+                        android:text='El empresario y socios'
+                        android:textSize='15sp' />
+                    // fin sub titulo
 
-                    // aqui campo
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="47dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/tv_F22_01"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:text="apoisjdpaoskjd"
-                            android:textAlignment="center"
-                            android:textIsSelectable="false"
-                            android:textSize="12dp"
-                            app:autoSizeTextType="none" />
-
-                        <EditText
-                            android:id="@+id/et_22_01"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:ems="20"
-                            android:inputType="textPersonName"
-                            android:textSize="10dp" />
-                    </LinearLayout>
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp" />
-                    // fin campo
-
-                    // aqui campo
-
-
+                    "// aqui campo
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="47dp"
-                        android:orientation="horizontal">
+                        android:layout_width='match_parent'
+                        android:layout_height='47dp'
+                        android:orientation='horizontal'>
 
                         <TextView
-                            android:id="@+id/tv_F22_02"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:text="apoisjdpaoskjd"
-                            android:textAlignment="center"
-                            android:textIsSelectable="false"
-                            android:textSize="12dp"
-                            app:autoSizeTextType="none" />
+
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:gravity='center_vertical'
+                            android:text='Nombre'
+                            android:textIsSelectable='false'
+                            android:textSize='12dp'
+                            app:autoSizeTextType='none' />
 
                         <EditText
-                            android:id="@+id/et_22_02"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:ems="20"
-                            android:inputType="textPersonName"
-                            android:textSize="10dp" />
+                            android:id='@+id/f01_01'
+                            android:layout_width='match_parent'
+                            android:layout_height='match_parent'
+                            android:layout_gravity='center_vertical'
+                            android:layout_weight='1'
+                            android:ems='20'
+                            android:gravity='center_vertical'
+                            android:inputType='textPersonName'
+                            android:textSize='10dp' />
                     </LinearLayout>
+
                     <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp" />
-                    // fin campo
+                        android:layout_width='match_parent'
+                        android:layout_height='10dp' />
+                    // fin campo"
 
 
 
@@ -173,32 +140,37 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#218DE3"
                 android:text="Atras"
                 app:cornerRadius="10sp" />
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:backgroundTint="#218DE3" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#218DE3"
                 android:text="Menu"
                 app:cornerRadius="10sp" />
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:backgroundTint="#218DE3" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#218DE3"
                 android:text="Siguiente"
                 app:cornerRadius="10sp" />
 
@@ -210,6 +182,6 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="23dp" />
+            android:layout_height="109dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
