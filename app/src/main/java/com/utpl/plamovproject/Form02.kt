@@ -29,7 +29,7 @@ class Form02 : AppCompatActivity() {
 
     private fun setup(email:String, provider:String){
 
-        //refrescar(email, provider)
+        refrescar(email, provider)
         siguiente.setOnClickListener{
             guardarDatos(email, provider)
             val form03Intent: Intent = Intent(this,Form03::class.java).apply {

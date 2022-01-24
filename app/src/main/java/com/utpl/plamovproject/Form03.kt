@@ -28,21 +28,21 @@ class Form03 : AppCompatActivity() {
         //refrescar(email, provider)
         siguiente.setOnClickListener{
             //guardarDatos(email, provider)
-            val form02Intent: Intent = Intent(this,Form02::class.java).apply {
+            val form04Intent: Intent = Intent(this,Form04::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(form02Intent)
+            startActivity(form04Intent)
 
         }
 
         atras.setOnClickListener {
             //guardarDatos(email, provider)
-            val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
+            val form02Intent: Intent = Intent(this,Form02::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(MenuIntent)
+            startActivity(form02Intent)
         }
 
         menu.setOnClickListener{

@@ -4,7 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.activity_form04.*
 import kotlinx.android.synthetic.main.activity_form08.*
+import kotlinx.android.synthetic.main.activity_form08.atras
+import kotlinx.android.synthetic.main.activity_form08.menu
+import kotlinx.android.synthetic.main.activity_form08.siguiente
 
 
 class Form08 : AppCompatActivity() {
@@ -28,21 +32,21 @@ class Form08 : AppCompatActivity() {
         //refrescar(email, provider)
         siguiente.setOnClickListener{
             //guardarDatos(email, provider)
-            val form02Intent: Intent = Intent(this,Form02::class.java).apply {
+            val form09Intent: Intent = Intent(this,Form09::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(form02Intent)
+            startActivity(form09Intent)
 
         }
 
         atras.setOnClickListener {
             //guardarDatos(email, provider)
-            val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
+            val form07Intent: Intent = Intent(this,Form07::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(MenuIntent)
+            startActivity(form07Intent)
         }
 
         menu.setOnClickListener{
