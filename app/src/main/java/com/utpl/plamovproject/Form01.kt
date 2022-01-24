@@ -30,7 +30,7 @@ class Form01 : AppCompatActivity() {
     private fun setup(email:String, provider:String){
 
         refrescar(email, provider)
-        siguiente01.setOnClickListener{
+        siguiente.setOnClickListener{
             db.collection("users").document(email).set(
                 hashMapOf("provider" to provider,
 
@@ -112,14 +112,14 @@ class Form01 : AppCompatActivity() {
 
         }
 
-        atras01.setOnClickListener {
+        atras.setOnClickListener {
             val homeIntent: Intent = Intent(this, HomeActivity::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
             startActivity(homeIntent)
         }
-        menu01.setOnClickListener{
+        menu.setOnClickListener{
 
         }
     }
