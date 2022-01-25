@@ -204,6 +204,9 @@ class HomeActivity : AppCompatActivity() {
             }
             startActivity(form22Intent)
         }
+        refresh.setOnClickListener{
+            refrescar(email?:"", provider?:"")
+        }
 
         btn_salir.setOnClickListener{
             FirebaseAuth.getInstance().signOut()

@@ -31,9 +31,16 @@
                 android:textSize="29sp"
                 android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Actualizar" />
+
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="16dp" />
+                android:layout_height="10dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
