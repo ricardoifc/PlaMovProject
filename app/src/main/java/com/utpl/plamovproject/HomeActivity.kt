@@ -303,63 +303,63 @@ class HomeActivity : AppCompatActivity() {
         db.collection(email).document("fo14").get().addOnSuccessListener {
 
             if (it.get("completef14") == "true") {
-                cb13.setChecked(true)
+                cb14.setChecked(true)
             }
         }
         cb15.setChecked(false)
         db.collection(email).document("fo15").get().addOnSuccessListener {
 
             if (it.get("completef15") == "true") {
-                cb13.setChecked(true)
+                cb15.setChecked(true)
             }
         }
         cb16.setChecked(false)
         db.collection(email).document("fo16").get().addOnSuccessListener {
 
             if (it.get("completef16") == "true") {
-                cb13.setChecked(true)
+                cb16.setChecked(true)
             }
         }
         cb17.setChecked(false)
         db.collection(email).document("fo17").get().addOnSuccessListener {
 
             if (it.get("completef17") == "true") {
-                cb13.setChecked(true)
+                cb17.setChecked(true)
             }
         }
         cb18.setChecked(false)
         db.collection(email).document("fo18").get().addOnSuccessListener {
 
             if (it.get("completef18") == "true") {
-                cb13.setChecked(true)
+                cb18.setChecked(true)
             }
         }
         cb19.setChecked(false)
         db.collection(email).document("fo19").get().addOnSuccessListener {
 
             if (it.get("completef19") == "true") {
-                cb13.setChecked(true)
+                cb19.setChecked(true)
             }
         }
         cb20.setChecked(false)
         db.collection(email).document("fo20").get().addOnSuccessListener {
 
             if (it.get("completef20") == "true") {
-                cb13.setChecked(true)
+                cb20.setChecked(true)
             }
         }
         cb21.setChecked(false)
         db.collection(email).document("fo21").get().addOnSuccessListener {
 
             if (it.get("completef21") == "true") {
-                cb13.setChecked(true)
+                cb21.setChecked(true)
             }
         }
         cb22.setChecked(false)
         db.collection(email).document("fo22").get().addOnSuccessListener {
 
             if (it.get("completef22") == "true") {
-                cb13.setChecked(true)
+                cb22.setChecked(true)
             }
         }
 
