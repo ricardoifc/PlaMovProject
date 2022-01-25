@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/drawable/ic_upload_file.xml" value="0.2703125" />
-        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form01.xml" value="0.2" />
+        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form01.xml" value="0.4" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form02.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form03.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form04.xml" value="0.25416666666666665" />
@@ -25,8 +25,8 @@
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form19.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form20.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form21.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form22.xml" value="0.2" />
-        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_home.xml" value="0.536" />
+        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form22.xml" value="0.4" />
+        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_splash.xml" value="0.264" />
       </map>

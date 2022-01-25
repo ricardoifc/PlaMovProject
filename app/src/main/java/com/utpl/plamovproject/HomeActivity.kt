@@ -139,14 +139,7 @@ class HomeActivity : AppCompatActivity() {
             }
             startActivity(form14Intent)
         }
-        btn15.setOnClickListener{
-            refrescar(email?:"", provider?:"")
-            val form15Intent: Intent = Intent(this,Form15::class.java).apply {
-                putExtra("email", email)
-                putExtra("provider", provider)
-            }
-            startActivity(form15Intent)
-        }
+
         btn16.setOnClickListener{
             refrescar(email?:"", provider?:"")
             val form16Intent: Intent = Intent(this,Form16::class.java).apply {
@@ -179,14 +172,7 @@ class HomeActivity : AppCompatActivity() {
             }
             startActivity(form19Intent)
         }
-        btn20.setOnClickListener{
-            refrescar(email?:"", provider?:"")
-            val form20Intent: Intent = Intent(this,Form20::class.java).apply {
-                putExtra("email", email)
-                putExtra("provider", provider)
-            }
-            startActivity(form20Intent)
-        }
+
         btn21.setOnClickListener{
             refrescar(email?:"", provider?:"")
 
@@ -309,13 +295,7 @@ class HomeActivity : AppCompatActivity() {
                 cb14.setChecked(true)
             }
         }
-        cb15.setChecked(false)
-        db.collection(email).document("fo15").get().addOnSuccessListener {
 
-            if (it.get("completef15") == "true") {
-                cb15.setChecked(true)
-            }
-        }
         cb16.setChecked(false)
         db.collection(email).document("fo16").get().addOnSuccessListener {
 
@@ -344,13 +324,7 @@ class HomeActivity : AppCompatActivity() {
                 cb19.setChecked(true)
             }
         }
-        cb20.setChecked(false)
-        db.collection(email).document("fo20").get().addOnSuccessListener {
 
-            if (it.get("completef20") == "true") {
-                cb20.setChecked(true)
-            }
-        }
         cb21.setChecked(false)
         db.collection(email).document("fo21").get().addOnSuccessListener {
 

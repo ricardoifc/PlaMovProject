@@ -30,7 +30,7 @@ class Form16 : AppCompatActivity() {
         refrescar(email, provider)
         siguiente.setOnClickListener{
             guardarDatos(email, provider)
-            val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
+            val MenuIntent: Intent = Intent(this,Form17::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
 
@@ -41,7 +41,7 @@ class Form16 : AppCompatActivity() {
 
         atras.setOnClickListener {
             guardarDatos(email, provider)
-            val form12Intent: Intent = Intent(this,Form12::class.java).apply {
+            val form12Intent: Intent = Intent(this,Form14::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }

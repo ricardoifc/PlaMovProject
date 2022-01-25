@@ -54,7 +54,7 @@
 
                         <TextView
                             android:id="@+id/textView2"
-                            android:layout_width="93dp"
+                            android:layout_width="124dp"
                             android:layout_height="match_parent"
                             android:text="DIAGNOSTICO "
                             android:textAlignment="center"

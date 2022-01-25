@@ -39,14 +39,6 @@ class Form01 : AppCompatActivity() {
 
         }
 
-        atras.setOnClickListener {
-            guardarDatos(email, provider)
-            val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
-                putExtra("email", email)
-                putExtra("provider", provider)
-            }
-            startActivity(MenuIntent)
-        }
 
         menu.setOnClickListener{
             guardarDatos(email, provider)

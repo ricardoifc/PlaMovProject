@@ -2055,14 +2055,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
-            <Button
-                android:id="@+id/atras"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#218DE3"
-                android:text="Atras"
-                app:cornerRadius="10sp" />
+            <Space
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
             <Space
                 android:layout_width="wrap_content"
