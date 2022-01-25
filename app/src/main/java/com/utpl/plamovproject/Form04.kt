@@ -4,11 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.android.synthetic.main.activity_form03.*
 import kotlinx.android.synthetic.main.activity_form04.*
-import kotlinx.android.synthetic.main.activity_form04.atras
-import kotlinx.android.synthetic.main.activity_form04.menu
-import kotlinx.android.synthetic.main.activity_form04.siguiente
 
 
 class Form04 : AppCompatActivity() {
