@@ -32,11 +32,11 @@ class Form05 : AppCompatActivity() {
         //refrescar(email, provider)
         siguiente.setOnClickListener{
             //guardarDatos(email, provider)
-            val form06Intent: Intent = Intent(this,Form06::class.java).apply {
+            val form07Intent: Intent = Intent(this,Form07::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(form06Intent)
+            startActivity(form07Intent)
 
         }
 

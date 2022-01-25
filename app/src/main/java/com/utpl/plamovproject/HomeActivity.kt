@@ -74,14 +74,7 @@ class HomeActivity : AppCompatActivity() {
             }
             startActivity(form05Intent)
         }
-        btn06.setOnClickListener{
-            refrescar(email?:"", provider?:"")
-            val form06Intent: Intent = Intent(this,Form06::class.java).apply {
-                putExtra("email", email)
-                putExtra("provider", provider)
-            }
-            startActivity(form06Intent)
-        }
+
         btn07.setOnClickListener{
             refrescar(email?:"", provider?:"")
             val form07Intent: Intent = Intent(this,Form07::class.java).apply {
