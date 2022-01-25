@@ -64,26 +64,24 @@ class Form21 : AppCompatActivity() {
             hashMapOf("provider" to provider,
                 //f21_01
 
-                "f21_1 " to f21_1.text.toString(),
-                "f21_2 " to f21_2.text.toString(),
+                "f21_1" to f21_1.text.toString(),
+                "f21_2" to f21_2.text.toString(),
+                "f21_3" to f21_3.text.toString(),
+                "f21_4" to f21_4.text.toString(),
+                "f21_5" to f21_5.text.toString(),
+                "f21_6" to f21_6.text.toString(),
+                "f21_7" to f21_7.text.toString(),
+                "f21_8" to f21_8.text.toString(),
 
-                "f21_3 " to f21_3.text.toString(),
-                "f21_4 " to f21_4.text.toString(),
-                "f21_5 " to f21_5.text.toString(),
+                "f21_9" to f21_9.text.toString(),
+                "f21_10" to f21_10.text.toString(),
+                "f21_11" to f21_11.text.toString(),
 
-                "f21_6 " to f21_6.text.toString(),
-                "f21_7 " to f21_7.text.toString(),
-                "f21_8 " to f21_8.text.toString(),
-
-                "f21_9 " to f21_9.text.toString(),
-                "f21_10 " to f21_10.text.toString(),
-                "f21_11 " to f21_11.text.toString(),
-
-                "f21_12 " to f21_12.text.toString(),
-                "f21_13 " to f21_13.text.toString(),
-                "f21_14 " to f21_14.text.toString(),
-                "f21_15 " to f21_15.text.toString(),
-                "f21_16 " to f21_16.text.toString(),
+                "f21_12" to f21_12.text.toString(),
+                "f21_13" to f21_13.text.toString(),
+                "f21_14" to f21_14.text.toString(),
+                "f21_15" to f21_15.text.toString(),
+                "f21_16" to f21_16.text.toString(),
 
 
 

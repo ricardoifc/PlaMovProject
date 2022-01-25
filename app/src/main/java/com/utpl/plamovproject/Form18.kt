@@ -61,117 +61,126 @@ class Form18 : AppCompatActivity() {
 
             hashMapOf("provider" to provider,
                 //f18_01
+                "f18_0" to f18_0.text.toString(),
+                "f18_1" to f18_10.text.toString(),
+                "f18_2" to f18_10.text.toString(),
+                "f18_3" to f18_10.text.toString(),
+                "f18_4" to f18_10.text.toString(),
+                "f18_5" to f18_10.text.toString(),
+                "f18_6" to f18_10.text.toString(),
+                "f18_7" to f18_10.text.toString(),
+                "f18_8" to f18_10.text.toString(),
+                "f18_9" to f18_10.text.toString(),
+                "f18_10" to f18_10.text.toString(),
+                "f18_11" to f18_11.text.toString(),
+                "f18_12" to f18_12.text.toString(),
+                "f18_13" to f18_13.text.toString(),
+                "f18_14" to f18_14.text.toString(),
+                "f18_15" to f18_15.text.toString(),
+                "f18_16" to f18_15.text.toString(),
+                "f18_17" to f18_17.text.toString(),
+                "f18_18" to f18_18.text.toString(),
+                "f18_19" to f18_19.text.toString(),
 
-                "f18_10 " to f18_10.text.toString(),
-                "f18_11 " to f18_11.text.toString(),
+                "f18_21" to f18_21.text.toString(),
+                "f18_22" to f18_22.text.toString(),
+                "f18_23" to f18_23.text.toString(),
 
-                "f18_13 " to f18_13.text.toString(),
-                "f18_14 " to f18_14.text.toString(),
-                "f18_15 " to f18_15.text.toString(),
+                "f18_25" to f18_25.text.toString(),
+                "f18_26" to f18_26.text.toString(),
+                "f18_27" to f18_27.text.toString(),
 
-                "f18_17 " to f18_17.text.toString(),
-                "f18_18 " to f18_18.text.toString(),
-                "f18_19 " to f18_19.text.toString(),
+                "f18_29" to f18_29.text.toString(),
+                "f18_30" to f18_30.text.toString(),
+                "f18_31" to f18_31.text.toString(),
 
-                "f18_21 " to f18_21.text.toString(),
-                "f18_22 " to f18_22.text.toString(),
-                "f18_23 " to f18_23.text.toString(),
+                "f18_33" to f18_33.text.toString(),
+                "f18_34" to f18_34.text.toString(),
+                "f18_35" to f18_35.text.toString(),
 
-                "f18_25 " to f18_25.text.toString(),
-                "f18_26 " to f18_26.text.toString(),
-                "f18_27 " to f18_27.text.toString(),
+                "f18_37" to f18_37.text.toString(),
+                "f18_38" to f18_38.text.toString(),
+                "f18_39" to f18_39.text.toString(),
 
-                "f18_29 " to f18_29.text.toString(),
-                "f18_30 " to f18_30.text.toString(),
-                "f18_31 " to f18_31.text.toString(),
+                "f18_41" to f18_41.text.toString(),
+                "f18_42" to f18_42.text.toString(),
+                "f18_43" to f18_43.text.toString(),
 
-                "f18_33 " to f18_33.text.toString(),
-                "f18_34 " to f18_34.text.toString(),
-                "f18_35 " to f18_35.text.toString(),
+                "f18_45" to f18_45.text.toString(),
+                "f18_46" to f18_46.text.toString(),
+                "f18_47" to f18_47.text.toString(),
 
-                "f18_37 " to f18_37.text.toString(),
-                "f18_38 " to f18_38.text.toString(),
-                "f18_39 " to f18_39.text.toString(),
+                "f18_49" to f18_49.text.toString(),
+                "f18_50" to f18_50.text.toString(),
+                "f18_51" to f18_51.text.toString(),
 
-                "f18_41 " to f18_41.text.toString(),
-                "f18_42 " to f18_42.text.toString(),
-                "f18_43 " to f18_43.text.toString(),
+                "f18_53" to f18_53.text.toString(),
+                "f18_54" to f18_54.text.toString(),
+                "f18_55" to f18_55.text.toString(),
 
-                "f18_45 " to f18_45.text.toString(),
-                "f18_46 " to f18_46.text.toString(),
-                "f18_47 " to f18_47.text.toString(),
+                "f18_57" to f18_57.text.toString(),
+                "f18_58" to f18_58.text.toString(),
+                "f18_59" to f18_59.text.toString(),
 
-                "f18_49 " to f18_49.text.toString(),
-                "f18_50 " to f18_50.text.toString(),
-                "f18_51 " to f18_51.text.toString(),
+                "f18_61" to f18_61.text.toString(),
+                "f18_62" to f18_62.text.toString(),
+                "f18_63" to f18_63.text.toString(),
 
-                "f18_53 " to f18_53.text.toString(),
-                "f18_54 " to f18_54.text.toString(),
-                "f18_55 " to f18_55.text.toString(),
+                "f18_65" to f18_65.text.toString(),
+                "f18_66" to f18_66.text.toString(),
+                "f18_67" to f18_67.text.toString(),
 
-                "f18_57 " to f18_57.text.toString(),
-                "f18_58 " to f18_58.text.toString(),
-                "f18_59 " to f18_59.text.toString(),
+                "f18_69" to f18_69.text.toString(),
+                "f18_70" to f18_70.text.toString(),
+                "f18_71" to f18_71.text.toString(),
 
-                "f18_61 " to f18_61.text.toString(),
-                "f18_62 " to f18_62.text.toString(),
-                "f18_63 " to f18_63.text.toString(),
+                "f18_73" to f18_73.text.toString(),
+                "f18_74" to f18_74.text.toString(),
+                "f18_75" to f18_75.text.toString(),
 
-                "f18_65 " to f18_65.text.toString(),
-                "f18_66 " to f18_66.text.toString(),
-                "f18_67 " to f18_67.text.toString(),
+                "f18_77" to f18_77.text.toString(),
+                "f18_78" to f18_78.text.toString(),
+                "f18_79" to f18_79.text.toString(),
 
-                "f18_69 " to f18_69.text.toString(),
-                "f18_70 " to f18_70.text.toString(),
-                "f18_71 " to f18_71.text.toString(),
+                "f18_89" to f18_89.text.toString(),
+                "f18_90" to f18_90.text.toString(),
+                "f18_91" to f18_91.text.toString(),
 
-                "f18_73 " to f18_73.text.toString(),
-                "f18_74 " to f18_74.text.toString(),
-                "f18_75 " to f18_75.text.toString(),
+                "f18_93" to f18_93.text.toString(),
+                "f18_94" to f18_94.text.toString(),
+                "f18_95" to f18_95.text.toString(),
 
-                "f18_77 " to f18_77.text.toString(),
-                "f18_78 " to f18_78.text.toString(),
-                "f18_79 " to f18_79.text.toString(),
+                "f18_97" to f18_97.text.toString(),
+                "f18_98" to f18_98.text.toString(),
+                "f18_99" to f18_99.text.toString(),
 
-                "f18_89 " to f18_89.text.toString(),
-                "f18_90 " to f18_90.text.toString(),
-                "f18_91 " to f18_91.text.toString(),
+                "f18_104" to f18_104.text.toString(),
+                "f18_105" to f18_105.text.toString(),
+                "f18_106" to f18_106.text.toString(),
 
-                "f18_93 " to f18_93.text.toString(),
-                "f18_94 " to f18_94.text.toString(),
-                "f18_95 " to f18_95.text.toString(),
+                "f18_109" to f18_109.text.toString(),
+                "f18_110" to f18_110.text.toString(),
+                "f18_111" to f18_111.text.toString(),
 
-                "f18_97 " to f18_97.text.toString(),
-                "f18_98 " to f18_98.text.toString(),
-                "f18_99 " to f18_99.text.toString(),
+                "f18_113" to f18_113.text.toString(),
+                "f18_114" to f18_114.text.toString(),
+                "f18_115" to f18_115.text.toString(),
 
-                "f18_104 " to f18_104.text.toString(),
-                "f18_105 " to f18_105.text.toString(),
-                "f18_106 " to f18_106.text.toString(),
+                "f18_117" to f18_117.text.toString(),
+                "f18_118" to f18_118.text.toString(),
+                "f18_119" to f18_119.text.toString(),
 
-                "f18_109 " to f18_109.text.toString(),
-                "f18_110 " to f18_110.text.toString(),
-                "f18_111 " to f18_111.text.toString(),
+                "f18_121" to f18_121.text.toString(),
+                "f18_122" to f18_122.text.toString(),
+                "f18_123" to f18_123.text.toString(),
 
-                "f18_113 " to f18_113.text.toString(),
-                "f18_114 " to f18_114.text.toString(),
-                "f18_115 " to f18_115.text.toString(),
+                "f18_129" to f18_129.text.toString(),
+                "f18_130" to f18_130.text.toString(),
+                "f18_131" to f18_131.text.toString(),
 
-                "f18_117 " to f18_117.text.toString(),
-                "f18_118 " to f18_118.text.toString(),
-                "f18_119 " to f18_119.text.toString(),
-
-                "f18_121 " to f18_121.text.toString(),
-                "f18_122 " to f18_122.text.toString(),
-                "f18_123 " to f18_123.text.toString(),
-
-                "f18_129 " to f18_129.text.toString(),
-                "f18_130 " to f18_130.text.toString(),
-                "f18_131 " to f18_131.text.toString(),
-
-                "f18_133 " to f18_133.text.toString(),
-                "f18_134 " to f18_134.text.toString(),
-                "f18_135 " to f18_135.text.toString(),
+                "f18_133" to f18_133.text.toString(),
+                "f18_134" to f18_134.text.toString(),
+                "f18_135" to f18_135.text.toString(),
 
 
 
@@ -183,118 +192,16 @@ class Form18 : AppCompatActivity() {
     }
     fun completeFun(): String {
         complete = true;
+        if  (f18_0 .text.toString().equals("")){complete = false;}
+        if  (f18_1 .text.toString().equals("")){complete = false;}
+        if  (f18_2 .text.toString().equals("")){complete = false;}
+        if  (f18_3 .text.toString().equals("")){complete = false;}
+        if  (f18_4 .text.toString().equals("")){complete = false;}
+        if  (f18_5 .text.toString().equals("")){complete = false;}
+        if  (f18_6 .text.toString().equals("")){complete = false;}
+        if  (f18_7 .text.toString().equals("")){complete = false;}
+        if  (f18_8 .text.toString().equals("")){complete = false;}
 
-
-        if  (f18_10 .text.toString().equals("")){complete = false;}
-        if  (f18_11 .text.toString().equals("")){complete = false;}
-
-        if  (f18_13 .text.toString().equals("")){complete = false;}
-        if  (f18_14 .text.toString().equals("")){complete = false;}
-        if  (f18_15 .text.toString().equals("")){complete = false;}
-
-        if  (f18_17 .text.toString().equals("")){complete = false;}
-        if  (f18_18 .text.toString().equals("")){complete = false;}
-        if  (f18_19 .text.toString().equals("")){complete = false;}
-
-        if  (f18_21 .text.toString().equals("")){complete = false;}
-        if  (f18_22 .text.toString().equals("")){complete = false;}
-        if  (f18_23 .text.toString().equals("")){complete = false;}
-
-        if  (f18_25 .text.toString().equals("")){complete = false;}
-        if  (f18_26 .text.toString().equals("")){complete = false;}
-        if  (f18_27 .text.toString().equals("")){complete = false;}
-
-        if  (f18_29 .text.toString().equals("")){complete = false;}
-        if  (f18_30 .text.toString().equals("")){complete = false;}
-        if  (f18_31 .text.toString().equals("")){complete = false;}
-
-        if  (f18_33 .text.toString().equals("")){complete = false;}
-        if  (f18_34 .text.toString().equals("")){complete = false;}
-        if  (f18_35 .text.toString().equals("")){complete = false;}
-
-        if  (f18_37 .text.toString().equals("")){complete = false;}
-        if  (f18_38 .text.toString().equals("")){complete = false;}
-        if  (f18_39 .text.toString().equals("")){complete = false;}
-
-        if  (f18_41 .text.toString().equals("")){complete = false;}
-        if  (f18_42 .text.toString().equals("")){complete = false;}
-        if  (f18_43 .text.toString().equals("")){complete = false;}
-
-        if  (f18_45 .text.toString().equals("")){complete = false;}
-        if  (f18_46 .text.toString().equals("")){complete = false;}
-        if  (f18_47 .text.toString().equals("")){complete = false;}
-
-        if  (f18_49 .text.toString().equals("")){complete = false;}
-        if  (f18_50 .text.toString().equals("")){complete = false;}
-        if  (f18_51 .text.toString().equals("")){complete = false;}
-
-        if  (f18_53 .text.toString().equals("")){complete = false;}
-        if  (f18_54 .text.toString().equals("")){complete = false;}
-        if  (f18_55 .text.toString().equals("")){complete = false;}
-
-        if  (f18_57 .text.toString().equals("")){complete = false;}
-        if  (f18_58 .text.toString().equals("")){complete = false;}
-        if  (f18_59 .text.toString().equals("")){complete = false;}
-
-        if  (f18_61 .text.toString().equals("")){complete = false;}
-        if  (f18_62 .text.toString().equals("")){complete = false;}
-        if  (f18_63 .text.toString().equals("")){complete = false;}
-
-        if  (f18_65 .text.toString().equals("")){complete = false;}
-        if  (f18_66 .text.toString().equals("")){complete = false;}
-        if  (f18_67 .text.toString().equals("")){complete = false;}
-
-        if  (f18_69 .text.toString().equals("")){complete = false;}
-        if  (f18_70 .text.toString().equals("")){complete = false;}
-        if  (f18_71 .text.toString().equals("")){complete = false;}
-
-        if  (f18_73 .text.toString().equals("")){complete = false;}
-        if  (f18_74 .text.toString().equals("")){complete = false;}
-        if  (f18_75 .text.toString().equals("")){complete = false;}
-
-        if  (f18_77 .text.toString().equals("")){complete = false;}
-        if  (f18_78 .text.toString().equals("")){complete = false;}
-        if  (f18_79 .text.toString().equals("")){complete = false;}
-
-        if  (f18_89 .text.toString().equals("")){complete = false;}
-        if  (f18_90 .text.toString().equals("")){complete = false;}
-        if  (f18_91 .text.toString().equals("")){complete = false;}
-
-        if  (f18_93 .text.toString().equals("")){complete = false;}
-        if  (f18_94 .text.toString().equals("")){complete = false;}
-        if  (f18_95 .text.toString().equals("")){complete = false;}
-
-        if  (f18_97 .text.toString().equals("")){complete = false;}
-        if  (f18_98 .text.toString().equals("")){complete = false;}
-        if  (f18_99 .text.toString().equals("")){complete = false;}
-
-        if  (f18_104 .text.toString().equals("")){complete = false;}
-        if  (f18_105 .text.toString().equals("")){complete = false;}
-        if  (f18_106 .text.toString().equals("")){complete = false;}
-
-        if  (f18_109 .text.toString().equals("")){complete = false;}
-        if  (f18_110 .text.toString().equals("")){complete = false;}
-        if  (f18_111 .text.toString().equals("")){complete = false;}
-
-        if  (f18_113 .text.toString().equals("")){complete = false;}
-        if  (f18_114 .text.toString().equals("")){complete = false;}
-        if  (f18_115 .text.toString().equals("")){complete = false;}
-
-        if  (f18_117 .text.toString().equals("")){complete = false;}
-        if  (f18_118 .text.toString().equals("")){complete = false;}
-        if  (f18_119 .text.toString().equals("")){complete = false;}
-
-        if  (f18_121 .text.toString().equals("")){complete = false;}
-        if  (f18_122 .text.toString().equals("")){complete = false;}
-        if  (f18_123 .text.toString().equals("")){complete = false;}
-
-        if  (f18_129 .text.toString().equals("")){complete = false;}
-        if  (f18_130 .text.toString().equals("")){complete = false;}
-        if  (f18_131 .text.toString().equals("")){complete = false;}
-
-        if  (f18_133 .text.toString().equals("")){complete = false;}
-        if  (f18_134 .text.toString().equals("")){complete = false;}
-        if  (f18_135 .text.toString().equals("")){complete = false;}
 
 
 
@@ -306,14 +213,23 @@ class Form18 : AppCompatActivity() {
     }
     fun refrescar(email: String, provider: String) {
         db.collection(email).document(formulario).get().addOnSuccessListener {
-
+            f18_0.setText(it.get("f18_0") as String?)
+            f18_1.setText(it.get("f18_1") as String?)
+            f18_2.setText(it.get("f18_2") as String?)
+            f18_3.setText(it.get("f18_3") as String?)
+            f18_4.setText(it.get("f18_4") as String?)
+            f18_5.setText(it.get("f18_5") as String?)
+            f18_6.setText(it.get("f18_6") as String?)
+            f18_7.setText(it.get("f18_7") as String?)
+            f18_8.setText(it.get("f18_8") as String?)
+            f18_9.setText(it.get("f18_9") as String?)
             f18_10.setText(it.get("f18_10") as String?)
             f18_11.setText(it.get("f18_11") as String?)
-
+            f18_12.setText(it.get("f18_11") as String?)
             f18_13.setText(it.get("f18_13") as String?)
             f18_14.setText(it.get("f18_14") as String?)
             f18_15.setText(it.get("f18_15") as String?)
-
+            f18_15.setText(it.get("f18_16") as String?)
             f18_17.setText(it.get("f18_17") as String?)
             f18_18.setText(it.get("f18_18") as String?)
             f18_19.setText(it.get("f18_19") as String?)
