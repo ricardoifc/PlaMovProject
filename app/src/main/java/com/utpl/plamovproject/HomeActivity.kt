@@ -66,15 +66,15 @@ class HomeActivity : AppCompatActivity() {
             }
             startActivity(form04Intent)
         }
-        btn05.setOnClickListener{
+
+        btn06.setOnClickListener{
             refrescar(email?:"", provider?:"")
-            val form05Intent: Intent = Intent(this,Form05::class.java).apply {
+            val form06Intent: Intent = Intent(this,Form06::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(form05Intent)
+            startActivity(form06Intent)
         }
-
         btn07.setOnClickListener{
             refrescar(email?:"", provider?:"")
             val form07Intent: Intent = Intent(this,Form07::class.java).apply {
@@ -242,13 +242,7 @@ class HomeActivity : AppCompatActivity() {
                 cb04.setChecked(true)
             }
         }
-        cb05.setChecked(false)
-        db.collection(email).document("fo05").get().addOnSuccessListener {
 
-            if (it.get("completef05") == "true") {
-                cb05.setChecked(true)
-            }
-        }
         cb06.setChecked(false)
         db.collection(email).document("fo06").get().addOnSuccessListener {
 
