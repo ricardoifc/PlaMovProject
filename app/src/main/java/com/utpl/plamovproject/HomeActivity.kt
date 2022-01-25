@@ -24,12 +24,12 @@ class HomeActivity : AppCompatActivity() {
         val email:String? = bundle?.getString("email")
         val provider:String? = bundle?.getString("provider")
 
-
+        refrescar(email?:"", provider?:"")
         setup(email?:"", provider?:"")
     }
 
     private fun setup(email:String, provider:String){
-        refrescar(email?:"", provider?:"")
+
 
         btn01.setOnClickListener{
             refrescar(email?:"", provider?:"")

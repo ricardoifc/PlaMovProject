@@ -28,9 +28,9 @@ class Form10 : AppCompatActivity() {
 
     private fun setup(email:String, provider:String){
 
-        //refrescar(email, provider)
+        refrescar(email, provider)
         siguiente.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form11Intent: Intent = Intent(this,Form11::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -40,7 +40,7 @@ class Form10 : AppCompatActivity() {
         }
 
         atras.setOnClickListener {
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form09Intent: Intent = Intent(this,Form09::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -49,7 +49,7 @@ class Form10 : AppCompatActivity() {
         }
 
         menu.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -58,7 +58,7 @@ class Form10 : AppCompatActivity() {
 
         }
     }
-    /*
+
     fun guardarDatos(email: String, provider: String){
         db.collection(email).document(formulario).set(
 
@@ -117,20 +117,6 @@ class Form10 : AppCompatActivity() {
                 "f10_51" to f10_51.text.toString(),
                 "f10_52" to f10_52.text.toString(),
                 "f10_53" to f10_53.text.toString(),
-                "f10_54" to f10_54.text.toString(),
-                "f10_55" to f10_55.text.toString(),
-                "f10_56" to f10_56.text.toString(),
-                "f10_57" to f10_57.text.toString(),
-                "f10_58" to f10_58.text.toString(),
-                "f10_59" to f10_59.text.toString(),
-                "f10_60" to f10_60.text.toString(),
-                "f10_61" to f10_61.text.toString(),
-                "f10_62" to f10_62.text.toString(),
-                "f10_63" to f10_63.text.toString(),
-                "f10_64" to f10_64.text.toString(),
-                "f10_65" to f10_65.text.toString(),
-                "f10_66" to f10_66.text.toString(),
-                "f10_67" to f10_67.text.toString(),
                 "completef10" to completeFun().toString()
 
             )
@@ -191,20 +177,7 @@ class Form10 : AppCompatActivity() {
         if(f10_51.text.toString().equals("")){complete = false;}
         if(f10_52.text.toString().equals("")){complete = false;}
         if(f10_53.text.toString().equals("")){complete = false;}
-        if(f10_54.text.toString().equals("")){complete = false;}
-        if(f10_55.text.toString().equals("")){complete = false;}
-        if(f10_56.text.toString().equals("")){complete = false;}
-        if(f10_57.text.toString().equals("")){complete = false;}
-        if(f10_58.text.toString().equals("")){complete = false;}
-        if(f10_59.text.toString().equals("")){complete = false;}
-        if(f10_60.text.toString().equals("")){complete = false;}
-        if(f10_61.text.toString().equals("")){complete = false;}
-        if(f10_62.text.toString().equals("")){complete = false;}
-        if(f10_63.text.toString().equals("")){complete = false;}
-        if(f10_64.text.toString().equals("")){complete = false;}
-        if(f10_65.text.toString().equals("")){complete = false;}
-        if(f10_66.text.toString().equals("")){complete = false;}
-        if(f10_67.text.toString().equals("")){complete = false;}
+
 
         if (complete == false){
             completeS= "false"
@@ -266,29 +239,15 @@ class Form10 : AppCompatActivity() {
             f10_51.setText(it.get("f10_51") as String?)
             f10_52.setText(it.get("f10_52") as String?)
             f10_53.setText(it.get("f10_53") as String?)
-            f10_54.setText(it.get("f10_54") as String?)
-            f10_55.setText(it.get("f10_55") as String?)
-            f10_56.setText(it.get("f10_56") as String?)
-            f10_57.setText(it.get("f10_57") as String?)
-            f10_58.setText(it.get("f10_58") as String?)
-            f10_59.setText(it.get("f10_59") as String?)
-            f10_60.setText(it.get("f10_60") as String?)
-            f10_61.setText(it.get("f10_61") as String?)
-            f10_62.setText(it.get("f10_62") as String?)
-            f10_63.setText(it.get("f10_63") as String?)
-            f10_64.setText(it.get("f10_64") as String?)
-            f10_65.setText(it.get("f10_65") as String?)
-            f10_66.setText(it.get("f10_66") as String?)
-            f10_67.setText(it.get("f10_67") as String?)
             if (completeFun().equals("true")){
-                progressTextf10.setText("Sección Completa")
+                progressTextF10.setText("Sección Completa")
             }else{
-                progressTextf10.setText("Sección Incompleta")
+                progressTextF10.setText("Sección Incompleta")
             }
 
 
         }
     }
 
-     */
+
 }

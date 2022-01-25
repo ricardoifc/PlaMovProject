@@ -57,6 +57,7 @@ class Form12 : AppCompatActivity() {
 
         }
     }
+
     fun guardarDatos(email: String, provider: String){
         db.collection(email).document(formulario).set(
 

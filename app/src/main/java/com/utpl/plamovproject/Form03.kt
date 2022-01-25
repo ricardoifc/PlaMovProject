@@ -25,9 +25,9 @@ class Form03 : AppCompatActivity() {
 
     private fun setup(email:String, provider:String){
 
-        //refrescar(email, provider)
+        refrescar(email, provider)
         siguiente.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form04Intent: Intent = Intent(this,Form04::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -37,7 +37,7 @@ class Form03 : AppCompatActivity() {
         }
 
         atras.setOnClickListener {
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form02Intent: Intent = Intent(this,Form02::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -46,7 +46,7 @@ class Form03 : AppCompatActivity() {
         }
 
         menu.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -55,7 +55,7 @@ class Form03 : AppCompatActivity() {
 
         }
     }
-    /*
+
     fun guardarDatos(email: String, provider: String){
         db.collection(email).document(formulario).set(
 
@@ -96,38 +96,7 @@ class Form03 : AppCompatActivity() {
                 "f03_33" to f03_33.text.toString(),
                 "f03_34" to f03_34.text.toString(),
                 "f03_35" to f03_35.text.toString(),
-                "f03_36" to f03_36.text.toString(),
-                "f03_37" to f03_37.text.toString(),
-                "f03_38" to f03_38.text.toString(),
-                "f03_39" to f03_39.text.toString(),
-                "f03_40" to f03_40.text.toString(),
-                "f03_41" to f03_41.text.toString(),
-                "f03_42" to f03_42.text.toString(),
-                "f03_43" to f03_43.text.toString(),
-                "f03_44" to f03_44.text.toString(),
-                "f03_45" to f03_45.text.toString(),
-                "f03_46" to f03_46.text.toString(),
-                "f03_47" to f03_47.text.toString(),
-                "f03_48" to f03_48.text.toString(),
-                "f03_49" to f03_49.text.toString(),
-                "f03_50" to f03_50.text.toString(),
-                "f03_51" to f03_51.text.toString(),
-                "f03_52" to f03_52.text.toString(),
-                "f03_53" to f03_53.text.toString(),
-                "f03_54" to f03_54.text.toString(),
-                "f03_55" to f03_55.text.toString(),
-                "f03_56" to f03_56.text.toString(),
-                "f03_57" to f03_57.text.toString(),
-                "f03_58" to f03_58.text.toString(),
-                "f03_59" to f03_59.text.toString(),
-                "f03_60" to f03_60.text.toString(),
-                "f03_61" to f03_61.text.toString(),
-                "f03_62" to f03_62.text.toString(),
-                "f03_63" to f03_63.text.toString(),
-                "f03_64" to f03_64.text.toString(),
-                "f03_65" to f03_65.text.toString(),
-                "f03_66" to f03_66.text.toString(),
-                "f03_67" to f03_67.text.toString(),
+
                 "completef03" to completeFun().toString()
 
             )
@@ -170,38 +139,7 @@ class Form03 : AppCompatActivity() {
         if(f03_33.text.toString().equals("")){complete = false;}
         if(f03_34.text.toString().equals("")){complete = false;}
         if(f03_35.text.toString().equals("")){complete = false;}
-        if(f03_36.text.toString().equals("")){complete = false;}
-        if(f03_37.text.toString().equals("")){complete = false;}
-        if(f03_38.text.toString().equals("")){complete = false;}
-        if(f03_39.text.toString().equals("")){complete = false;}
-        if(f03_40.text.toString().equals("")){complete = false;}
-        if(f03_41.text.toString().equals("")){complete = false;}
-        if(f03_42.text.toString().equals("")){complete = false;}
-        if(f03_43.text.toString().equals("")){complete = false;}
-        if(f03_44.text.toString().equals("")){complete = false;}
-        if(f03_45.text.toString().equals("")){complete = false;}
-        if(f03_46.text.toString().equals("")){complete = false;}
-        if(f03_47.text.toString().equals("")){complete = false;}
-        if(f03_48.text.toString().equals("")){complete = false;}
-        if(f03_49.text.toString().equals("")){complete = false;}
-        if(f03_50.text.toString().equals("")){complete = false;}
-        if(f03_51.text.toString().equals("")){complete = false;}
-        if(f03_52.text.toString().equals("")){complete = false;}
-        if(f03_53.text.toString().equals("")){complete = false;}
-        if(f03_54.text.toString().equals("")){complete = false;}
-        if(f03_55.text.toString().equals("")){complete = false;}
-        if(f03_56.text.toString().equals("")){complete = false;}
-        if(f03_57.text.toString().equals("")){complete = false;}
-        if(f03_58.text.toString().equals("")){complete = false;}
-        if(f03_59.text.toString().equals("")){complete = false;}
-        if(f03_60.text.toString().equals("")){complete = false;}
-        if(f03_61.text.toString().equals("")){complete = false;}
-        if(f03_62.text.toString().equals("")){complete = false;}
-        if(f03_63.text.toString().equals("")){complete = false;}
-        if(f03_64.text.toString().equals("")){complete = false;}
-        if(f03_65.text.toString().equals("")){complete = false;}
-        if(f03_66.text.toString().equals("")){complete = false;}
-        if(f03_67.text.toString().equals("")){complete = false;}
+
 
         if (complete == false){
             completeS= "false"
@@ -245,47 +183,16 @@ class Form03 : AppCompatActivity() {
             f03_33.setText(it.get("f03_33") as String?)
             f03_34.setText(it.get("f03_34") as String?)
             f03_35.setText(it.get("f03_35") as String?)
-            f03_36.setText(it.get("f03_36") as String?)
-            f03_37.setText(it.get("f03_37") as String?)
-            f03_38.setText(it.get("f03_38") as String?)
-            f03_39.setText(it.get("f03_39") as String?)
-            f03_40.setText(it.get("f03_40") as String?)
-            f03_41.setText(it.get("f03_41") as String?)
-            f03_42.setText(it.get("f03_42") as String?)
-            f03_43.setText(it.get("f03_43") as String?)
-            f03_44.setText(it.get("f03_44") as String?)
-            f03_45.setText(it.get("f03_45") as String?)
-            f03_46.setText(it.get("f03_46") as String?)
-            f03_47.setText(it.get("f03_47") as String?)
-            f03_48.setText(it.get("f03_48") as String?)
-            f03_49.setText(it.get("f03_49") as String?)
-            f03_50.setText(it.get("f03_50") as String?)
-            f03_51.setText(it.get("f03_51") as String?)
-            f03_52.setText(it.get("f03_52") as String?)
-            f03_53.setText(it.get("f03_53") as String?)
-            f03_54.setText(it.get("f03_54") as String?)
-            f03_55.setText(it.get("f03_55") as String?)
-            f03_56.setText(it.get("f03_56") as String?)
-            f03_57.setText(it.get("f03_57") as String?)
-            f03_58.setText(it.get("f03_58") as String?)
-            f03_59.setText(it.get("f03_59") as String?)
-            f03_60.setText(it.get("f03_60") as String?)
-            f03_61.setText(it.get("f03_61") as String?)
-            f03_62.setText(it.get("f03_62") as String?)
-            f03_63.setText(it.get("f03_63") as String?)
-            f03_64.setText(it.get("f03_64") as String?)
-            f03_65.setText(it.get("f03_65") as String?)
-            f03_66.setText(it.get("f03_66") as String?)
-            f03_67.setText(it.get("f03_67") as String?)
+
             if (completeFun().equals("true")){
-                progressTextf03.setText("Sección Completa")
+                progressTextF03.setText("Sección Completa")
             }else{
-                progressTextf03.setText("Sección Incompleta")
+                progressTextF03.setText("Sección Incompleta")
             }
 
 
         }
     }
 
-     */
+
 }

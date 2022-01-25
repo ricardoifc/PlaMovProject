@@ -4,11 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.android.synthetic.main.activity_form01.*
 import kotlinx.android.synthetic.main.activity_form11.*
-import kotlinx.android.synthetic.main.activity_form11.atras
-import kotlinx.android.synthetic.main.activity_form11.menu
-import kotlinx.android.synthetic.main.activity_form11.siguiente
 
 class Form11 : AppCompatActivity() {
     var formulario = "fo11"
@@ -28,9 +24,9 @@ class Form11 : AppCompatActivity() {
 
     private fun setup(email:String, provider:String){
 
-        //refrescar(email, provider)
+        refrescar(email, provider)
         siguiente.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form12Intent: Intent = Intent(this,Form12::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -40,7 +36,7 @@ class Form11 : AppCompatActivity() {
         }
 
         atras.setOnClickListener {
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form09Intent: Intent = Intent(this,Form09::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -49,7 +45,7 @@ class Form11 : AppCompatActivity() {
         }
 
         menu.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -58,7 +54,7 @@ class Form11 : AppCompatActivity() {
 
         }
     }
-    /*
+
     fun guardarDatos(email: String, provider: String){
         db.collection(email).document(formulario).set(
 
@@ -93,44 +89,6 @@ class Form11 : AppCompatActivity() {
                 "f11_27" to f11_27.text.toString(),
                 "f11_28" to f11_28.text.toString(),
                 "f11_29" to f11_29.text.toString(),
-                "f11_30" to f11_30.text.toString(),
-                "f11_31" to f11_31.text.toString(),
-                "f11_32" to f11_32.text.toString(),
-                "f11_33" to f11_33.text.toString(),
-                "f11_34" to f11_34.text.toString(),
-                "f11_35" to f11_35.text.toString(),
-                "f11_36" to f11_36.text.toString(),
-                "f11_37" to f11_37.text.toString(),
-                "f11_38" to f11_38.text.toString(),
-                "f11_39" to f11_39.text.toString(),
-                "f11_40" to f11_40.text.toString(),
-                "f11_41" to f11_41.text.toString(),
-                "f11_42" to f11_42.text.toString(),
-                "f11_43" to f11_43.text.toString(),
-                "f11_44" to f11_44.text.toString(),
-                "f11_45" to f11_45.text.toString(),
-                "f11_46" to f11_46.text.toString(),
-                "f11_47" to f11_47.text.toString(),
-                "f11_48" to f11_48.text.toString(),
-                "f11_49" to f11_49.text.toString(),
-                "f11_50" to f11_50.text.toString(),
-                "f11_51" to f11_51.text.toString(),
-                "f11_52" to f11_52.text.toString(),
-                "f11_53" to f11_53.text.toString(),
-                "f11_54" to f11_54.text.toString(),
-                "f11_55" to f11_55.text.toString(),
-                "f11_56" to f11_56.text.toString(),
-                "f11_57" to f11_57.text.toString(),
-                "f11_58" to f11_58.text.toString(),
-                "f11_59" to f11_59.text.toString(),
-                "f11_60" to f11_60.text.toString(),
-                "f11_61" to f11_61.text.toString(),
-                "f11_62" to f11_62.text.toString(),
-                "f11_63" to f11_63.text.toString(),
-                "f11_64" to f11_64.text.toString(),
-                "f11_65" to f11_65.text.toString(),
-                "f11_66" to f11_66.text.toString(),
-                "f11_67" to f11_67.text.toString(),
                 "completef11" to completeFun().toString()
 
             )
@@ -167,45 +125,6 @@ class Form11 : AppCompatActivity() {
         if(f11_27.text.toString().equals("")){complete = false;}
         if(f11_28.text.toString().equals("")){complete = false;}
         if(f11_29.text.toString().equals("")){complete = false;}
-        if(f11_30.text.toString().equals("")){complete = false;}
-        if(f11_31.text.toString().equals("")){complete = false;}
-        if(f11_32.text.toString().equals("")){complete = false;}
-        if(f11_33.text.toString().equals("")){complete = false;}
-        if(f11_34.text.toString().equals("")){complete = false;}
-        if(f11_35.text.toString().equals("")){complete = false;}
-        if(f11_36.text.toString().equals("")){complete = false;}
-        if(f11_37.text.toString().equals("")){complete = false;}
-        if(f11_38.text.toString().equals("")){complete = false;}
-        if(f11_39.text.toString().equals("")){complete = false;}
-        if(f11_40.text.toString().equals("")){complete = false;}
-        if(f11_41.text.toString().equals("")){complete = false;}
-        if(f11_42.text.toString().equals("")){complete = false;}
-        if(f11_43.text.toString().equals("")){complete = false;}
-        if(f11_44.text.toString().equals("")){complete = false;}
-        if(f11_45.text.toString().equals("")){complete = false;}
-        if(f11_46.text.toString().equals("")){complete = false;}
-        if(f11_47.text.toString().equals("")){complete = false;}
-        if(f11_48.text.toString().equals("")){complete = false;}
-        if(f11_49.text.toString().equals("")){complete = false;}
-        if(f11_50.text.toString().equals("")){complete = false;}
-        if(f11_51.text.toString().equals("")){complete = false;}
-        if(f11_52.text.toString().equals("")){complete = false;}
-        if(f11_53.text.toString().equals("")){complete = false;}
-        if(f11_54.text.toString().equals("")){complete = false;}
-        if(f11_55.text.toString().equals("")){complete = false;}
-        if(f11_56.text.toString().equals("")){complete = false;}
-        if(f11_57.text.toString().equals("")){complete = false;}
-        if(f11_58.text.toString().equals("")){complete = false;}
-        if(f11_59.text.toString().equals("")){complete = false;}
-        if(f11_60.text.toString().equals("")){complete = false;}
-        if(f11_61.text.toString().equals("")){complete = false;}
-        if(f11_62.text.toString().equals("")){complete = false;}
-        if(f11_63.text.toString().equals("")){complete = false;}
-        if(f11_64.text.toString().equals("")){complete = false;}
-        if(f11_65.text.toString().equals("")){complete = false;}
-        if(f11_66.text.toString().equals("")){complete = false;}
-        if(f11_67.text.toString().equals("")){complete = false;}
-
         if (complete == false){
             completeS= "false"
         }
@@ -242,53 +161,15 @@ class Form11 : AppCompatActivity() {
             f11_27.setText(it.get("f11_27") as String?)
             f11_28.setText(it.get("f11_28") as String?)
             f11_29.setText(it.get("f11_29") as String?)
-            f11_30.setText(it.get("f11_30") as String?)
-            f11_31.setText(it.get("f11_31") as String?)
-            f11_32.setText(it.get("f11_32") as String?)
-            f11_33.setText(it.get("f11_33") as String?)
-            f11_34.setText(it.get("f11_34") as String?)
-            f11_35.setText(it.get("f11_35") as String?)
-            f11_36.setText(it.get("f11_36") as String?)
-            f11_37.setText(it.get("f11_37") as String?)
-            f11_38.setText(it.get("f11_38") as String?)
-            f11_39.setText(it.get("f11_39") as String?)
-            f11_40.setText(it.get("f11_40") as String?)
-            f11_41.setText(it.get("f11_41") as String?)
-            f11_42.setText(it.get("f11_42") as String?)
-            f11_43.setText(it.get("f11_43") as String?)
-            f11_44.setText(it.get("f11_44") as String?)
-            f11_45.setText(it.get("f11_45") as String?)
-            f11_46.setText(it.get("f11_46") as String?)
-            f11_47.setText(it.get("f11_47") as String?)
-            f11_48.setText(it.get("f11_48") as String?)
-            f11_49.setText(it.get("f11_49") as String?)
-            f11_50.setText(it.get("f11_50") as String?)
-            f11_51.setText(it.get("f11_51") as String?)
-            f11_52.setText(it.get("f11_52") as String?)
-            f11_53.setText(it.get("f11_53") as String?)
-            f11_54.setText(it.get("f11_54") as String?)
-            f11_55.setText(it.get("f11_55") as String?)
-            f11_56.setText(it.get("f11_56") as String?)
-            f11_57.setText(it.get("f11_57") as String?)
-            f11_58.setText(it.get("f11_58") as String?)
-            f11_59.setText(it.get("f11_59") as String?)
-            f11_60.setText(it.get("f11_60") as String?)
-            f11_61.setText(it.get("f11_61") as String?)
-            f11_62.setText(it.get("f11_62") as String?)
-            f11_63.setText(it.get("f11_63") as String?)
-            f11_64.setText(it.get("f11_64") as String?)
-            f11_65.setText(it.get("f11_65") as String?)
-            f11_66.setText(it.get("f11_66") as String?)
-            f11_67.setText(it.get("f11_67") as String?)
+
             if (completeFun().equals("true")){
-                progressTextf11.setText("Sección Completa")
+                progressTextF11.setText("Sección Completa")
             }else{
-                progressTextf11.setText("Sección Incompleta")
+                progressTextF11.setText("Sección Incompleta")
             }
 
 
         }
     }
 
-     */
 }

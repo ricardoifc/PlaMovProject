@@ -28,9 +28,9 @@ class Form07 : AppCompatActivity() {
 
     private fun setup(email:String, provider:String){
 
-        //refrescar(email, provider)
+        refrescar(email, provider)
         siguiente.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form08Intent: Intent = Intent(this,Form08::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -40,7 +40,7 @@ class Form07 : AppCompatActivity() {
         }
 
         atras.setOnClickListener {
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val form06Intent: Intent = Intent(this,Form06::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -49,7 +49,7 @@ class Form07 : AppCompatActivity() {
         }
 
         menu.setOnClickListener{
-            //guardarDatos(email, provider)
+            guardarDatos(email, provider)
             val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -58,7 +58,7 @@ class Form07 : AppCompatActivity() {
 
         }
     }
-    /*
+
     fun guardarDatos(email: String, provider: String){
         db.collection(email).document(formulario).set(
 
@@ -106,31 +106,8 @@ class Form07 : AppCompatActivity() {
                 "f07_40" to f07_40.text.toString(),
                 "f07_41" to f07_41.text.toString(),
                 "f07_42" to f07_42.text.toString(),
-                "f07_43" to f07_43.text.toString(),
-                "f07_44" to f07_44.text.toString(),
-                "f07_45" to f07_45.text.toString(),
-                "f07_46" to f07_46.text.toString(),
-                "f07_47" to f07_47.text.toString(),
-                "f07_48" to f07_48.text.toString(),
-                "f07_49" to f07_49.text.toString(),
-                "f07_50" to f07_50.text.toString(),
-                "f07_51" to f07_51.text.toString(),
-                "f07_52" to f07_52.text.toString(),
-                "f07_53" to f07_53.text.toString(),
-                "f07_54" to f07_54.text.toString(),
-                "f07_55" to f07_55.text.toString(),
-                "f07_56" to f07_56.text.toString(),
-                "f07_57" to f07_57.text.toString(),
-                "f07_58" to f07_58.text.toString(),
-                "f07_59" to f07_59.text.toString(),
-                "f07_60" to f07_60.text.toString(),
-                "f07_61" to f07_61.text.toString(),
-                "f07_62" to f07_62.text.toString(),
-                "f07_63" to f07_63.text.toString(),
-                "f07_64" to f07_64.text.toString(),
-                "f07_65" to f07_65.text.toString(),
-                "f07_66" to f07_66.text.toString(),
-                "f07_67" to f07_67.text.toString(),
+
+
                 "completef07" to completeFun().toString()
 
             )
@@ -180,31 +157,7 @@ class Form07 : AppCompatActivity() {
         if(f07_40.text.toString().equals("")){complete = false;}
         if(f07_41.text.toString().equals("")){complete = false;}
         if(f07_42.text.toString().equals("")){complete = false;}
-        if(f07_43.text.toString().equals("")){complete = false;}
-        if(f07_44.text.toString().equals("")){complete = false;}
-        if(f07_45.text.toString().equals("")){complete = false;}
-        if(f07_46.text.toString().equals("")){complete = false;}
-        if(f07_47.text.toString().equals("")){complete = false;}
-        if(f07_48.text.toString().equals("")){complete = false;}
-        if(f07_49.text.toString().equals("")){complete = false;}
-        if(f07_50.text.toString().equals("")){complete = false;}
-        if(f07_51.text.toString().equals("")){complete = false;}
-        if(f07_52.text.toString().equals("")){complete = false;}
-        if(f07_53.text.toString().equals("")){complete = false;}
-        if(f07_54.text.toString().equals("")){complete = false;}
-        if(f07_55.text.toString().equals("")){complete = false;}
-        if(f07_56.text.toString().equals("")){complete = false;}
-        if(f07_57.text.toString().equals("")){complete = false;}
-        if(f07_58.text.toString().equals("")){complete = false;}
-        if(f07_59.text.toString().equals("")){complete = false;}
-        if(f07_60.text.toString().equals("")){complete = false;}
-        if(f07_61.text.toString().equals("")){complete = false;}
-        if(f07_62.text.toString().equals("")){complete = false;}
-        if(f07_63.text.toString().equals("")){complete = false;}
-        if(f07_64.text.toString().equals("")){complete = false;}
-        if(f07_65.text.toString().equals("")){complete = false;}
-        if(f07_66.text.toString().equals("")){complete = false;}
-        if(f07_67.text.toString().equals("")){complete = false;}
+
 
         if (complete == false){
             completeS= "false"
@@ -255,40 +208,15 @@ class Form07 : AppCompatActivity() {
             f07_40.setText(it.get("f07_40") as String?)
             f07_41.setText(it.get("f07_41") as String?)
             f07_42.setText(it.get("f07_42") as String?)
-            f07_43.setText(it.get("f07_43") as String?)
-            f07_44.setText(it.get("f07_44") as String?)
-            f07_45.setText(it.get("f07_45") as String?)
-            f07_46.setText(it.get("f07_46") as String?)
-            f07_47.setText(it.get("f07_47") as String?)
-            f07_48.setText(it.get("f07_48") as String?)
-            f07_49.setText(it.get("f07_49") as String?)
-            f07_50.setText(it.get("f07_50") as String?)
-            f07_51.setText(it.get("f07_51") as String?)
-            f07_52.setText(it.get("f07_52") as String?)
-            f07_53.setText(it.get("f07_53") as String?)
-            f07_54.setText(it.get("f07_54") as String?)
-            f07_55.setText(it.get("f07_55") as String?)
-            f07_56.setText(it.get("f07_56") as String?)
-            f07_57.setText(it.get("f07_57") as String?)
-            f07_58.setText(it.get("f07_58") as String?)
-            f07_59.setText(it.get("f07_59") as String?)
-            f07_60.setText(it.get("f07_60") as String?)
-            f07_61.setText(it.get("f07_61") as String?)
-            f07_62.setText(it.get("f07_62") as String?)
-            f07_63.setText(it.get("f07_63") as String?)
-            f07_64.setText(it.get("f07_64") as String?)
-            f07_65.setText(it.get("f07_65") as String?)
-            f07_66.setText(it.get("f07_66") as String?)
-            f07_67.setText(it.get("f07_67") as String?)
+
             if (completeFun().equals("true")){
-                progressTextf07.setText("Sección Completa")
+                progressTextF07.setText("Sección Completa")
             }else{
-                progressTextf07.setText("Sección Incompleta")
+                progressTextF07.setText("Sección Incompleta")
             }
 
 
         }
     }
 
-     */
 }
