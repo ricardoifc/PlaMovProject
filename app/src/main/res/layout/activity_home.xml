@@ -520,7 +520,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#F82C2C"
-                    android:text="Marchar afuera" />
+                    android:text="CERRAR SESION" />
 
                 <Space
                     android:layout_width="5dp"
