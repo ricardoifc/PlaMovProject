@@ -78,15 +78,6 @@
                             android:textAlignment="center"
                             android:textSize="13sp" />
 
-                        <TextView
-                            android:id="@+id/textView7"
-                            android:layout_width="93dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="CF"
-                            android:textAlignment="center"
-                            android:textSize="13sp" />
-
                     </LinearLayout>
 
                     // fin sub titulo"
@@ -116,14 +107,6 @@
                             android:textSize='10dp' />
                         <EditText
                             android:id='@+id/f17_03' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_04' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
@@ -166,14 +149,6 @@
                             android:ems='20' android:gravity='center_vertical'
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_08' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -203,14 +178,6 @@
                             android:textSize='10dp' />
                         <EditText
                             android:id='@+id/f17_11' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_12' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
@@ -252,14 +219,6 @@
                             android:ems='20' android:gravity='center_vertical'
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_16' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -289,14 +248,6 @@
                             android:textSize='10dp' />
                         <EditText
                             android:id='@+id/f17_19' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_20' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
@@ -340,14 +291,6 @@
                             android:ems='20' android:gravity='center_vertical'
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_24' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -377,14 +320,6 @@
                             android:textSize='10dp' />
                         <EditText
                             android:id='@+id/f17_27' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_28' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
@@ -427,14 +362,6 @@
                             android:ems='20' android:gravity='center_vertical'
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_32' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -465,14 +392,6 @@
                             android:textSize='10dp' />
                         <EditText
                             android:id='@+id/f17_35' android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
-                        <EditText
-                            android:id='@+id/f17_36' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
@@ -521,16 +440,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_40"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -573,16 +482,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_44"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -625,16 +524,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_48"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -669,17 +558,6 @@
 
                         <EditText
                             android:id="@+id/f17_51"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
-
-                        <EditText
-                            android:id="@+id/f17_52"
                             android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
@@ -732,16 +610,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_56"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -784,16 +652,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_60"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -835,16 +693,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_64"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -888,16 +736,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_68"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -940,16 +778,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_72"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -992,16 +820,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_76"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1043,16 +861,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_80"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1095,16 +903,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_92"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1147,16 +945,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_96"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1199,16 +987,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_100"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1251,16 +1029,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_107"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1303,16 +1071,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_112"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1355,16 +1113,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_116"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1407,16 +1155,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_120"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1458,16 +1196,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_124"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1511,16 +1239,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_132"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1562,16 +1280,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_136"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1614,16 +1322,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_139"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1719,16 +1417,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_147"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1772,16 +1460,6 @@
                             android:inputType='textPersonName'
                             android:textSize='10dp' />
 
-                        <EditText
-                            android:id="@+id/f17_151"
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:ems='20'
-                            android:gravity='center_vertical'
-                            android:inputType='textPersonName'
-                            android:textSize='10dp' />
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -1813,7 +1491,7 @@
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/progressTextF22"
+                android:id="@+id/progressTextf17"
                 android:layout_width="203dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"

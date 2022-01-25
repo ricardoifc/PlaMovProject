@@ -1224,16 +1224,7 @@ android:textSize='15sp' />
                         android:layout_width='match_parent'
                         android:layout_height='47dp'
                         android:orientation='horizontal'>
-                        <TextView
 
-                            android:layout_width='match_parent'
-                            android:layout_height='match_parent'
-                            android:layout_gravity='center_vertical'
-                            android:layout_weight='1'
-                            android:gravity='center_vertical' android:text=''
-                            android:textIsSelectable='false'
-                            android:textSize='12dp'
-                            app:autoSizeTextType='none' />
                         <EditText
                             android:id='@+id/f13_35' android:layout_width='match_parent'
                             android:layout_height='match_parent'
@@ -1271,7 +1262,7 @@ android:textSize='15sp' />
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/progressTextF22"
+                android:id="@+id/progressTextf13"
                 android:layout_width="203dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"

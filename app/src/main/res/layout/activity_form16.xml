@@ -1976,7 +1976,7 @@
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/progressTextF22"
+                android:id="@+id/progressTextf16"
                 android:layout_width="203dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
