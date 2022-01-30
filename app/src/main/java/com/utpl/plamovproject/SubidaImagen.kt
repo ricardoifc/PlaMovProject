@@ -11,12 +11,15 @@ import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
 import kotlinx.android.synthetic.main.activity_form06.*
+import kotlinx.android.synthetic.main.activity_subida_imagen.*
+import kotlinx.android.synthetic.main.activity_subida_imagen.imagenDown
+import kotlinx.android.synthetic.main.activity_subida_imagen.uploadImageView
 import java.util.*
 
-class Form06 : AppCompatActivity() {
+class SubidaImagen : AppCompatActivity() {
 
     private val db = FirebaseFirestore.getInstance()
-    var formulario = "fo06"
+    var formulario = "subidaImagen"
     private val File = 1
     private val database = Firebase.database
     val myRef = database.getReference("user")
@@ -25,7 +28,7 @@ class Form06 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_form06)
+        setContentView(R.layout.activity_subida_imagen)
 
         val bundle:Bundle?=intent.extras
         val email:String? = bundle?.getString("email")
@@ -33,10 +36,11 @@ class Form06 : AppCompatActivity() {
 
         datosAuth(email?:"", provider?:"")
         setup()
-
         uploadImageView.setOnClickListener {
             fileUpload()
         }
+
+
     }
 
 
@@ -62,15 +66,14 @@ class Form06 : AppCompatActivity() {
                         myRef.setValue(hashMap)
                         Log.d("Mensaje", "Se subió correctamente")
 
-                        progressTextF06.setText("Sección Completa")
                         db.collection(email).document(formulario).set(
                             hashMapOf("provider" to provider,
-                                "completef06" to "true",
-                                "imgUrl06" to uri.toString()
+                                "imgUrlSubida" to uri.toString() // uri.toString es el link que genero
                             )
                         )
+                        // poner imagen en un imgview
                         Glide.with(this)
-                            .load(uri.toString())
+                            .load(uri.toString()) // uri.toString es el link que guardo
                             .fitCenter()
                             .centerCrop()
                             .into(imagenDown)
@@ -83,40 +86,18 @@ class Form06 : AppCompatActivity() {
     private fun datosAuth(emailS:String, providerS:String){
         email  =  emailS
         provider = providerS
-        progressTextF06.setText("Sección Incompleta")
-        db.collection(email).document("fo06").get().addOnSuccessListener {
-
-            if (it.get("completef06") == "true") {
-                progressTextF06.setText("Sección Completa")
-                Glide.with(this)
-                    .load(it.get("imgUrl06").toString())
+        db.collection(email).document(formulario).get().addOnSuccessListener {
+            //cargar img subido
+            Glide.with(this)
+                    .load(it.get("imgUrlSubida").toString())
                     .fitCenter()
                     .centerCrop()
                     .into(imagenDown)
             }
         }
 
-    }
     private fun setup(){
-        siguiente.setOnClickListener{
-
-            val form07Intent: Intent = Intent(this,Form07::class.java).apply {
-                putExtra("email", email)
-                putExtra("provider", provider)
-            }
-            startActivity(form07Intent)
-
-        }
-
-        atras.setOnClickListener {
-            val form04Intent: Intent = Intent(this,Form04::class.java).apply {
-                putExtra("email", email)
-                putExtra("provider", provider)
-            }
-            startActivity(form04Intent)
-        }
-
-        menu.setOnClickListener{
+        menuBTN.setOnClickListener{
             val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
@@ -124,6 +105,7 @@ class Form06 : AppCompatActivity() {
             startActivity(MenuIntent)
 
         }
+
     }
 
 }

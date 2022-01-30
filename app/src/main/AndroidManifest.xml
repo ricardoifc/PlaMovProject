@@ -7,15 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.PlaMovProject">
+        <activity
+            android:name=".SubidaImagen"
+            android:exported="false" />
         <activity
             android:name=".Form22"
             android:exported="false" />
         <activity
             android:name=".Form21"
-            android:exported="false" />
-        <activity
-            android:name=".Form20"
             android:exported="false" />
         <activity
             android:name=".Form19"
@@ -28,9 +28,6 @@
             android:exported="false" />
         <activity
             android:name=".Form16"
-            android:exported="false" />
-        <activity
-            android:name=".Form15"
             android:exported="false" />
         <activity
             android:name=".Form14"
@@ -58,9 +55,6 @@
             android:exported="false" />
         <activity
             android:name=".Form06"
-            android:exported="false" />
-        <activity
-            android:name=".Form05"
             android:exported="false" />
         <activity
             android:name=".Form04"

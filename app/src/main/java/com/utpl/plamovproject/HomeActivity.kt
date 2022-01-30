@@ -30,7 +30,13 @@ class HomeActivity : AppCompatActivity() {
 
     private fun setup(email:String, provider:String){
 
-
+        botnSubir.setOnClickListener{
+            val subirIntent: Intent = Intent(this,SubidaImagen::class.java).apply {
+                putExtra("email", email)
+                putExtra("provider", provider)
+            }
+            startActivity(subirIntent)
+        }
         btn01.setOnClickListener{
             refrescar(email?:"", provider?:"")
             val form01Intent: Intent = Intent(this,Form01::class.java).apply {
