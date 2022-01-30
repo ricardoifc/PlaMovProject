@@ -209,140 +209,216 @@ class HomeActivity : AppCompatActivity() {
     }
     fun refrescar(email: String, provider: String) {
 
-        cb01.setChecked(false)
+
         db.collection(email).document("fo01").get().addOnSuccessListener {
 
             if (it.get("completef01") == "true") {
                 cb01.setChecked(true)
+                cb01.setText("Completo     ")
+            }else{
+                cb01.setChecked(false)
+                cb01.setText("Incompleto")
             }
         }
-        cb02.setChecked(false)
+
         db.collection(email).document("fo02").get().addOnSuccessListener {
 
             if (it.get("completef02") == "true") {
                 cb02.setChecked(true)
+                cb02.setText("Completo     ")
+            }else{
+                cb02.setChecked(false)
+                cb02.setText("Incompleto")
             }
         }
-        cb03.setChecked(false)
+
         db.collection(email).document("fo03").get().addOnSuccessListener {
 
             if (it.get("completef03") == "true") {
                 cb03.setChecked(true)
+                cb03.setText("Completo     ")
+            }else{
+                cb03.setChecked(false)
+                cb03.setText("Incompleto")
             }
         }
-        cb04.setChecked(false)
+
         db.collection(email).document("fo04").get().addOnSuccessListener {
 
             if (it.get("completef04") == "true") {
                 cb04.setChecked(true)
+                cb04.setText("Completo     ")
+            }else{
+                cb04.setChecked(false)
+                cb04.setText("Incompleto")
             }
         }
 
-        cb06.setChecked(false)
+
         db.collection(email).document("fo06").get().addOnSuccessListener {
 
             if (it.get("completef06") == "true") {
                 cb06.setChecked(true)
+                cb06.setText("Completo     ")
+            }else{
+                cb06.setChecked(false)
+                cb06.setText("Incompleto")
             }
         }
-        cb07.setChecked(false)
+
         db.collection(email).document("fo07").get().addOnSuccessListener {
 
             if (it.get("completef07") == "true") {
                 cb07.setChecked(true)
+                cb07.setText("Completo     ")
+            }else{
+                cb07.setChecked(false)
+                cb07.setText("Incompleto")
             }
         }
-        cb08.setChecked(false)
+
         db.collection(email).document("fo08").get().addOnSuccessListener {
 
             if (it.get("completef08") == "true") {
                 cb08.setChecked(true)
+                cb08.setText("Completo     ")
+            }else{
+                cb08.setChecked(false)
+                cb08.setText("Incompleto")
             }
         }
-        cb09.setChecked(false)
+
         db.collection(email).document("fo09").get().addOnSuccessListener {
 
             if (it.get("completef09") == "true") {
                 cb09.setChecked(true)
+                cb09.setText("Completo     ")
+            }else{
+                cb09.setChecked(false)
+                cb09.setText("Incompleto")
             }
         }
-        cb10.setChecked(false)
+
         db.collection(email).document("fo10").get().addOnSuccessListener {
 
             if (it.get("completef10") == "true") {
                 cb10.setChecked(true)
+                cb10.setText("Completo     ")
+            }else{
+                cb10.setChecked(false)
+                cb10.setText("Incompleto")
             }
         }
-        cb11.setChecked(false)
+
         db.collection(email).document("fo11").get().addOnSuccessListener {
 
             if (it.get("completef11") == "true") {
                 cb11.setChecked(true)
+                cb11.setText("Completo     ")
+            }else{
+                cb11.setChecked(false)
+                cb11.setText("Incompleto")
             }
         }
-        cb12.setChecked(false)
+
         db.collection(email).document("fo12").get().addOnSuccessListener {
 
             if (it.get("completef12") == "true") {
                 cb12.setChecked(true)
+                cb12.setText("Completo     ")
+            }else{
+                cb12.setChecked(false)
+                cb12.setText("Incompleto")
             }
         }
-        cb13.setChecked(false)
+
         db.collection(email).document("fo13").get().addOnSuccessListener {
 
             if (it.get("completef13") == "true") {
                 cb13.setChecked(true)
+                cb13.setText("Completo     ")
+            }else{
+                cb13.setChecked(false)
+                cb13.setText("Incompleto")
             }
         }
-        cb14.setChecked(false)
+
         db.collection(email).document("fo14").get().addOnSuccessListener {
 
             if (it.get("completef14") == "true") {
                 cb14.setChecked(true)
+                cb14.setText("Completo     ")
+            }else{
+                cb14.setChecked(false)
+                cb14.setText("Incompleto")
             }
         }
 
-        cb16.setChecked(false)
+
         db.collection(email).document("fo16").get().addOnSuccessListener {
 
             if (it.get("completef16") == "true") {
                 cb16.setChecked(true)
+                cb16.setText("Completo     ")
+            }else{
+                cb16.setChecked(false)
+                cb16.setText("Incompleto")
             }
         }
-        cb17.setChecked(false)
+
         db.collection(email).document("fo17").get().addOnSuccessListener {
 
             if (it.get("completef17") == "true") {
                 cb17.setChecked(true)
+                cb17.setText("Completo     ")
+            }else{
+                cb17.setChecked(false)
+                cb17.setText("Incompleto")
             }
         }
-        cb18.setChecked(false)
+
         db.collection(email).document("fo18").get().addOnSuccessListener {
 
             if (it.get("completef18") == "true") {
                 cb18.setChecked(true)
+                cb18.setText("Completo     ")
+            }else{
+                cb18.setChecked(false)
+                cb18.setText("Incompleto")
             }
         }
-        cb19.setChecked(false)
+
         db.collection(email).document("fo19").get().addOnSuccessListener {
 
             if (it.get("completef19") == "true") {
                 cb19.setChecked(true)
+                cb19.setText("Completo     ")
+            }else{
+                cb19.setChecked(false)
+                cb19.setText("Incompleto")
             }
         }
 
-        cb21.setChecked(false)
+
         db.collection(email).document("fo21").get().addOnSuccessListener {
 
             if (it.get("completef21") == "true") {
                 cb21.setChecked(true)
+                cb21.setText("Completo     ")
+            }else{
+                cb21.setChecked(false)
+                cb21.setText("Incompleto")
             }
         }
-        cb22.setChecked(false)
+
         db.collection(email).document("fo22").get().addOnSuccessListener {
 
             if (it.get("completef22") == "true") {
                 cb22.setChecked(true)
+                cb22.setText("Completo     ")
+            }else{
+                cb22.setChecked(false)
+                cb22.setText("Incompleto")
             }
         }
 

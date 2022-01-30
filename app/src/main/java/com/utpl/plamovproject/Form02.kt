@@ -7,9 +7,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_form02.*
 
 
-enum class ProviderType02{
-    BASIC
-}
 
 class Form02 : AppCompatActivity() {
     var formulario = "fo02"

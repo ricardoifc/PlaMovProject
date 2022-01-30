@@ -6,10 +6,6 @@ import android.os.Bundle
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_form01.*
 
-enum class ProviderTypef01{
-    BASIC
-}
-
 class Form01 : AppCompatActivity() {
     var formulario = "fo01"
     private val db = FirebaseFirestore.getInstance()
