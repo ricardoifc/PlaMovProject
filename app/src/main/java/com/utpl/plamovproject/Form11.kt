@@ -31,6 +31,7 @@ class Form11 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form12Intent)
 
         }
@@ -41,6 +42,7 @@ class Form11 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form09Intent)
         }
 
@@ -50,6 +52,7 @@ class Form11 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(MenuIntent)
 
         }

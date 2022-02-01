@@ -33,8 +33,9 @@ class Form02 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(form03Intent)
             finish()
+            startActivity(form03Intent)
+
 
         }
 
@@ -44,8 +45,9 @@ class Form02 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(atrasIntent)
             finish();
+            startActivity(atrasIntent)
+
         }
 
         menu.setOnClickListener{
@@ -54,8 +56,9 @@ class Form02 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-            startActivity(MenuIntent)
             finish();
+            startActivity(MenuIntent)
+
 
         }
     }

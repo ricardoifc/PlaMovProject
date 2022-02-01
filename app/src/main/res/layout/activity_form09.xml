@@ -83,14 +83,18 @@
                             android:textIsSelectable='false'
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
+
                         <EditText
-                            android:id='@+id/f09_01' android:layout_width='match_parent'
+                            android:id="@+id/f09_01"
+                            android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
-                            android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:ems='20'
+                            android:gravity='center_vertical'
+                            android:inputType="number"
                             android:textSize='10dp' />
+
                     </LinearLayout>
                     <Space
                         android:layout_width='match_parent'
@@ -117,7 +121,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -151,7 +155,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -179,7 +183,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -207,7 +211,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -241,7 +245,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -269,7 +273,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -303,7 +307,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -331,7 +335,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -365,7 +369,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -393,7 +397,7 @@
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -416,12 +420,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_' android:layout_width='match_parent'
+                            android:id='@+id/f09_12' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -456,12 +460,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_12' android:layout_width='match_parent'
+                            android:id='@+id/f09_13' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -484,12 +488,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_13' android:layout_width='match_parent'
+                            android:id='@+id/f09_14' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -512,12 +516,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_14' android:layout_width='match_parent'
+                            android:id='@+id/f09_15' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -564,12 +568,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_15' android:layout_width='match_parent'
+                            android:id='@+id/f09_16' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -592,12 +596,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_16' android:layout_width='match_parent'
+                            android:id='@+id/f09_17' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -626,12 +630,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_17' android:layout_width='match_parent'
+                            android:id='@+id/f09_18' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -660,12 +664,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_18' android:layout_width='match_parent'
+                            android:id='@+id/f09_19' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -688,12 +692,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_19' android:layout_width='match_parent'
+                            android:id='@+id/f09_20' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -716,12 +720,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_20' android:layout_width='match_parent'
+                            android:id='@+id/f09_21' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -750,12 +754,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_21' android:layout_width='match_parent'
+                            android:id='@+id/f09_22' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -778,12 +782,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_22' android:layout_width='match_parent'
+                            android:id='@+id/f09_23' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -806,12 +810,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_' android:layout_width='match_parent'
+                            android:id='@+id/f09_24' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -852,12 +856,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_23' android:layout_width='match_parent'
+                            android:id='@+id/f09_25' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -880,12 +884,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_24' android:layout_width='match_parent'
+                            android:id='@+id/f09_26' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -908,12 +912,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_25' android:layout_width='match_parent'
+                            android:id='@+id/f09_27' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -942,12 +946,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_26' android:layout_width='match_parent'
+                            android:id='@+id/f09_28' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -970,12 +974,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_27' android:layout_width='match_parent'
+                            android:id='@+id/f09_29' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1010,12 +1014,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_28' android:layout_width='match_parent'
+                            android:id='@+id/f09_30' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1038,12 +1042,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_29' android:layout_width='match_parent'
+                            android:id='@+id/f09_31' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1066,12 +1070,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_30' android:layout_width='match_parent'
+                            android:id='@+id/f09_32' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1094,12 +1098,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_31' android:layout_width='match_parent'
+                            android:id='@+id/f09_33' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1122,12 +1126,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_32' android:layout_width='match_parent'
+                            android:id='@+id/f09_34' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1156,12 +1160,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_33' android:layout_width='match_parent'
+                            android:id='@+id/f09_35' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1184,12 +1188,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_34' android:layout_width='match_parent'
+                            android:id='@+id/f09_36' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1212,12 +1216,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_35' android:layout_width='match_parent'
+                            android:id='@+id/f09_37' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1240,12 +1244,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_36' android:layout_width='match_parent'
+                            android:id='@+id/f09_38' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1286,12 +1290,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_37' android:layout_width='match_parent'
+                            android:id='@+id/f09_39' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1314,12 +1318,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_38' android:layout_width='match_parent'
+                            android:id='@+id/f09_40' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1342,12 +1346,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_39' android:layout_width='match_parent'
+                            android:id='@+id/f09_41' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1370,12 +1374,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_40' android:layout_width='match_parent'
+                            android:id='@+id/f09_42' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1398,12 +1402,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_41' android:layout_width='match_parent'
+                            android:id='@+id/f09_43' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1426,12 +1430,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_42' android:layout_width='match_parent'
+                            android:id='@+id/f09_44' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1454,12 +1458,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_43' android:layout_width='match_parent'
+                            android:id='@+id/f09_45' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1512,12 +1516,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_44' android:layout_width='match_parent'
+                            android:id='@+id/f09_46' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1546,12 +1550,12 @@
                             android:textSize='12dp'
                             app:autoSizeTextType='none' />
                         <EditText
-                            android:id='@+id/f09_45' android:layout_width='match_parent'
+                            android:id='@+id/f09_47' android:layout_width='match_parent'
                             android:layout_height='match_parent'
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space

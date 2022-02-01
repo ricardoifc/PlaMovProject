@@ -3,11 +3,11 @@ package com.utpl.plamovproject
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.android.synthetic.main.activity_form01.*
 import kotlinx.android.synthetic.main.activity_home.*
-import kotlinx.android.synthetic.main.activity_main.*
 
 enum class ProviderType {
     BASIC
@@ -16,6 +16,7 @@ enum class ProviderType {
 
 class HomeActivity : AppCompatActivity() {
     private val db = FirebaseFirestore.getInstance()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -24,19 +25,52 @@ class HomeActivity : AppCompatActivity() {
         val email:String? = bundle?.getString("email")
         val provider:String? = bundle?.getString("provider")
 
+        cargarInfo(email?:"", provider?:"")
         refrescar(email?:"", provider?:"")
+        Handler().postDelayed(Runnable {
+            //----------------------------
+            refrescar(email?:"", provider?:"")
+            //----------------------------
+        }, 3000)
         setup(email?:"", provider?:"")
+
+
+    }
+
+    private fun cargarInfo(email:String, provider:String){
+        db.collection(email).document("Empresa").get().addOnSuccessListener {
+            db.collection(email).document("Empresa").get().addOnSuccessListener {
+                if (it.get("urlImgagenEmpresa") as String? != "" ){
+                    Glide.with(this)
+                        .load(it.get("urlImgagenEmpresa") as String?) // uri.toString es el link que guardo
+                        .fitCenter()
+                        .centerCrop()
+                        .into(empresa_image)
+                }
+                if (it.get("nombreDeEmpresa") as String? != "" ){
+                    nameEmpresa.setText(it.get("nombreDeEmpresa") as String?)
+                }
+            }
+
+
+        }
+
+
     }
 
     private fun setup(email:String, provider:String){
 
-        botnSubir.setOnClickListener{
-            val subirIntent: Intent = Intent(this,SubidaImagen::class.java).apply {
+        ediIconBtn.setOnClickListener{
+            val EditIntent: Intent = Intent(this,EditEmpresaActivity::class.java).apply {
+
                 putExtra("email", email)
                 putExtra("provider", provider)
+
             }
-            startActivity(subirIntent)
+            finish()
+            startActivity(EditIntent)
         }
+
         btn01.setOnClickListener{
             refrescar(email?:"", provider?:"")
             val form01Intent: Intent = Intent(this,Form01::class.java).apply {
@@ -45,16 +79,19 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("provider", provider)
 
             }
+            finish()
             startActivity(form01Intent)
         }
+
         btn02.setOnClickListener{
             refrescar(email?:"", provider?:"")
             val form02Intent: Intent = Intent(this,Form02::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish()
             startActivity(form02Intent)
-            finish();
+
         }
         btn03.setOnClickListener{
             refrescar(email?:"", provider?:"")
@@ -62,6 +99,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form03Intent)
         }
         btn04.setOnClickListener{
@@ -70,6 +108,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form04Intent)
         }
 
@@ -79,6 +118,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form06Intent)
         }
         btn07.setOnClickListener{
@@ -87,6 +127,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form07Intent)
         }
         btn08.setOnClickListener{
@@ -95,6 +136,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form08Intent)
         }
         btn09.setOnClickListener{
@@ -103,6 +145,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form09Intent)
         }
         btn10.setOnClickListener{
@@ -111,6 +154,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form10Intent)
         }
         btn11.setOnClickListener{
@@ -119,6 +163,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form11Intent)
         }
         btn12.setOnClickListener{
@@ -127,6 +172,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form12Intent)
         }
         btn13.setOnClickListener{
@@ -135,6 +181,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form13Intent)
         }
         btn14.setOnClickListener{
@@ -143,6 +190,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form14Intent)
         }
 
@@ -152,6 +200,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form16Intent)
         }
         btn17.setOnClickListener{
@@ -160,6 +209,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form17Intent)
         }
         btn18.setOnClickListener{
@@ -168,6 +218,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form18Intent)
         }
         btn19.setOnClickListener{
@@ -176,6 +227,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form19Intent)
         }
 
@@ -186,6 +238,7 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form21Intent)
         }
         btn22.setOnClickListener{
@@ -194,13 +247,12 @@ class HomeActivity : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form22Intent)
-        }
-        refresh.setOnClickListener{
-            refrescar(email?:"", provider?:"")
         }
 
         btn_salir.setOnClickListener{
+            finish();
             FirebaseAuth.getInstance().signOut()
             onBackPressed()
         }

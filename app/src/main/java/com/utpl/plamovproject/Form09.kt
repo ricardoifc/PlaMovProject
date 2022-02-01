@@ -31,6 +31,7 @@ class Form09 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form10Intent)
 
         }
@@ -41,6 +42,7 @@ class Form09 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form08Intent)
         }
 
@@ -50,10 +52,12 @@ class Form09 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(MenuIntent)
 
         }
     }
+
 
     fun guardarDatos(email: String, provider: String){
         db.collection(email).document(formulario).set(
@@ -105,6 +109,9 @@ class Form09 : AppCompatActivity() {
                 "f09_43" to f09_43.text.toString(),
                 "f09_44" to f09_44.text.toString(),
                 "f09_45" to f09_45.text.toString(),
+                "f09_46" to f09_46.text.toString(),
+                "f09_47" to f09_47.text.toString(),
+
                 "completef09" to completeFun().toString()
 
             )
@@ -157,6 +164,9 @@ class Form09 : AppCompatActivity() {
         if(f09_43.text.toString().equals("")){complete = false;}
         if(f09_44.text.toString().equals("")){complete = false;}
         if(f09_45.text.toString().equals("")){complete = false;}
+        if(f09_46.text.toString().equals("")){complete = false;}
+        if(f09_47.text.toString().equals("")){complete = false;}
+
 
         if (complete == false){
             completeS= "false"
@@ -210,6 +220,8 @@ class Form09 : AppCompatActivity() {
             f09_43.setText(it.get("f09_43") as String?)
             f09_44.setText(it.get("f09_44") as String?)
             f09_45.setText(it.get("f09_45") as String?)
+            f09_46.setText(it.get("f09_46") as String?)
+            f09_47.setText(it.get("f09_47") as String?)
             if (completeFun().equals("true")){
                 progressTextF09.setText("Sección Completa")
             }else{

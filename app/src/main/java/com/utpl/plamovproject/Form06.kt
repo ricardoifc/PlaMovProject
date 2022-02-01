@@ -104,6 +104,7 @@ class Form06 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form07Intent)
 
         }
@@ -113,6 +114,7 @@ class Form06 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(form04Intent)
         }
 
@@ -121,6 +123,7 @@ class Form06 : AppCompatActivity() {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
+            finish();
             startActivity(MenuIntent)
 
         }

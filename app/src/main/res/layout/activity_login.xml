@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,14 +26,14 @@
                 android:layout_height="50sp" />
 
             <FrameLayout
-                android:layout_width="175dp"
-                android:layout_height="175dp"
+                android:layout_width="124dp"
+                android:layout_height="146dp"
                 android:layout_gravity="center"
                 android:backgroundTint="#FF0000">
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="125dp"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/logo_negocio_facil" />
 
@@ -46,33 +46,42 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bienvenido a Negocio Facil"
-                android:textSize="25sp" />
-
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="26dp" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#AE000000" />
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="17dp" />
 
-            <TextView
-                android:id="@+id/textView"
+            <EditText
+                android:id="@+id/et_clave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="¿Tiene cuenta? Inicie sesión"
-                android:textSize="20sp" />
+                android:ems="10"
+                android:hint="Clave"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#AE000000" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="36dp" />
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_acceder"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_weight="0"
                 android:backgroundTint="#3D4DA8"
                 android:text="Ingresar"
                 android:textColor="#FFFFFF"
@@ -80,28 +89,11 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="36dp" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="¿Aun no está registrado?"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/btn_registro"
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:layout_weight="0"
-                android:backgroundTint="#004CCD"
-                android:text="Registrar"
-                android:textColor="#FFFFFF"
-                app:cornerRadius="25sp" />
+                android:layout_height="85dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="17dp" />
+                android:layout_height="167dp" />
 
         </LinearLayout>
 
@@ -111,5 +103,4 @@
             android:layout_weight="1" />
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

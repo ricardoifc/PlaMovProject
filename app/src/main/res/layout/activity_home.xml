@@ -22,21 +22,60 @@
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="1dp">
 
-            <TextView
-                android:id="@+id/textView"
+            <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/gestion_empresarial"
-                android:textSize="29sp"
-                android:textStyle="bold" />
+                android:layout_height="10dp" />
 
-            <Button
-                android:id="@+id/refresh"
-                android:layout_width="wrap_content"
-                android:layout_height="37dp"
-                android:layout_gravity="center_horizontal"
-                android:text="Actualizar" />
+            <FrameLayout
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF0000">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/empresa_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/icon_empresa"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="3dp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nameEmpresa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/gestion_empresarial"
+                    android:textSize="29sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0" />
+
+                <ImageView
+                    android:id="@+id/ediIconBtn"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:srcCompat="@drawable/edit_icon" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="11dp"
+                android:background="?android:attr/listDivider" />
 
             <Space
                 android:layout_width="match_parent"
@@ -48,16 +87,6 @@
                 android:layout_weight="1"
                 android:orientation="horizontal"
                 android:paddingLeft="5sp">
-
-                <Button
-                    android:id="@+id/botnSubir"
-                    android:layout_width="260dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="#3F51B5"
-                    android:text="Subir Foto"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
 
                 <Space
                     android:layout_width="wrap_content"
