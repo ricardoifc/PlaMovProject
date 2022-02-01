@@ -21,9 +21,12 @@ class LoginActivity : AppCompatActivity() {
 
     private fun setup(){
         title = "Login"
+        irAtras.setOnClickListener{
+            finish()
+        }
         btn_acceder.setOnClickListener(){
             if (et_email.text.isNotEmpty() && et_clave.text.isNotEmpty()){
-                FirebaseAuth.getInstance().signInWithEmailAndPassword(et_email.text.toString(),
+                FirebaseAuth.getInstance().signInWithEmailAndPassword(et_email.text.toString().trim(),
                     et_clave.text.toString()).addOnCompleteListener(){
                     if (it.isSuccessful){
                         showHome(it.result?.user?.email?:"", ProviderType.BASIC)

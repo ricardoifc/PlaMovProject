@@ -45,6 +45,9 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun setup(){
         title = "Register"
+        irAtras.setOnClickListener{
+            finish()
+        }
         btn_actualizar.setOnClickListener{
             if (et_email.text.isNotEmpty() && et_clave.text.isNotEmpty() && nombreEmpresa.text.isNotEmpty()){
 

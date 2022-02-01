@@ -14,6 +14,11 @@ import java.util.HashMap
 import com.google.firebase.database.ktx.database
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_edit_empresa.btn_actualizar
+import kotlinx.android.synthetic.main.activity_edit_empresa.empresa_image
+import kotlinx.android.synthetic.main.activity_edit_empresa.irAtras
+import kotlinx.android.synthetic.main.activity_edit_empresa.nombreEmpresa
+import kotlinx.android.synthetic.main.activity_register.*
 
 
 class EditEmpresaActivity : AppCompatActivity() {
@@ -61,6 +66,14 @@ class EditEmpresaActivity : AppCompatActivity() {
     }
     fun setup(email: String, provider: String) {
             title = "Edit"
+        irAtras.setOnClickListener{
+            finish()
+            val MenuIntent: Intent = Intent(this,HomeActivity::class.java).apply {
+                putExtra("email", email)
+                putExtra("provider", provider)
+            }
+            startActivity(MenuIntent)
+        }
             btn_actualizar.setOnClickListener {
                 if (cambios == true){
 

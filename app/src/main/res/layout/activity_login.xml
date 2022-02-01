@@ -23,7 +23,24 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="50sp" />
+                android:layout_height="26dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/irAtras"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:srcCompat="@drawable/btn_atras" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp" />
+            </LinearLayout>
 
             <FrameLayout
                 android:layout_width="124dp"
@@ -45,6 +62,13 @@
                 android:orientation="horizontal">
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inicio de sesión"
+                android:textSize="20sp" />
 
             <Space
                 android:layout_width="match_parent"

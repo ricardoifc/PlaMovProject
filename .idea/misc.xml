@@ -8,7 +8,7 @@
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/drawable/empresaicon.xml" value="0.1859375" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/drawable/ic_upload_file.xml" value="0.2703125" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/drawable/img.xml" value="0.1" />
-        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_edit_empresa.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_edit_empresa.xml" value="0.264" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form01.xml" value="0.4" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form02.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form03.xml" value="0.25416666666666665" />
@@ -31,8 +31,8 @@
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form20.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form21.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_form22.xml" value="0.4" />
-        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_home.xml" value="0.24752475247524752" />
-        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_login.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_home.xml" value="0.4" />
+        <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/Ricardoifc/AndroidStudioProjects/PlaMovProject/app/src/main/res/layout/activity_splash.xml" value="0.176" />
