@@ -63,7 +63,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -98,7 +98,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -126,7 +126,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -154,7 +154,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -217,7 +217,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -266,7 +266,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -322,7 +322,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -350,7 +350,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -378,7 +378,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -406,7 +406,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -434,7 +434,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -476,7 +476,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -504,7 +504,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -532,7 +532,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -588,7 +588,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -616,7 +616,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -658,7 +658,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -686,7 +686,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -714,7 +714,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -749,7 +749,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -777,7 +777,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -805,7 +805,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -840,7 +840,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -896,7 +896,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -924,7 +924,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -980,7 +980,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1008,7 +1008,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1051,7 +1051,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1079,7 +1079,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1107,7 +1107,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1135,7 +1135,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
@@ -1163,7 +1163,7 @@ android:textSize='15sp' />
                             android:layout_gravity='center_vertical'
                             android:layout_weight='1'
                             android:ems='20' android:gravity='center_vertical'
-                            android:inputType='textPersonName'
+                            android:inputType='number'
                             android:textSize='10dp' />
                     </LinearLayout>
                     <Space
